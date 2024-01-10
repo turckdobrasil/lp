@@ -313,7 +313,8 @@
     }
 
     .social h2 {
-        letter-spacing: -0.5px !important
+        letter-spacing: -0.5px !important;
+	    font-size:16px !important;
     }
 
     .whatsapp {
