@@ -404,7 +404,9 @@
 
 
 
-    /***--- SOLUÇÃO ---***/ .solucao {
+    /***--- SOLUÇÃO ---***/
+
+    .solucao {
         margin: 20px 0px;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
         display: grid;
@@ -413,6 +415,10 @@
         border-radius: 15px;
         color: #333;
         letter-spacing: -0.5px;
+	background-size:cover;
+	padding:50px 30px;
+	height:auto;
+	align-items:center;
     }
 
     .solucao-titulo {
