@@ -1,0 +1,1094 @@
+<style type="text/css">/***--- SCROLLBAR ---***/
+
+::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f5f5f5;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #ffcc00;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ffcc00;
+    }
+
+
+
+
+
+    /***--- GERAIS PAGINA ---***/ .chamada,
+    .botao,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    #nome-categoria,
+    p,
+    .footerContainer,
+    .templatefooter p,
+    .webContent__content .field-help,
+    .webContent__content .invalid-error,
+    #mcnSignUpFormContentContainer,
+    #mc-EMAIL,
+    #mc-FNAME,
+    #mc-EMPRESA,
+    #button,
+    #content__formFields label,
+    .content__formFields label,
+    label,
+    .webContent__content .button,
+    .button,
+    a,
+    a h5,
+    .footerContainer,
+    .templatefooter p {
+        font-family: Sora !important;
+        color: #333 !important;
+    }
+
+
+    .slogan p,
+    h1,
+    h2 {
+        color: #fff !important
+    }
+
+    h3{
+	font-size:28px !important
+}
+
+    .botao,
+    a h5 {
+        font-size: 16px !important;
+        text-decoration: none !important;
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: none !important;
+        font-weight: 700 !important;
+    }
+
+
+    html {
+        filter: saturate(1.5) !important
+    }
+
+
+    h1 {
+        padding: 20px 100px 10px
+    }
+
+    h1,
+    h3,
+    h4,
+    #nome-categoria {
+        font-weight: 700;
+    }
+
+    html,
+    body {
+        scroll-behavior: smooth !important;
+        transition: 0.2s
+    }
+
+    body::selection {
+        color: #fff !important;
+        background: 222 !important;
+    }
+
+
+    h1 {
+        margin: 20px 0px
+    }
+
+    .botao,
+    h5 {
+        margin-bottom: 0px auto 15px important;
+        background-color: #ffcc00;
+        border-radius: 5px;
+        display: inline-block !important;       
+    }
+
+    .chamada {
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 120%
+    }
+
+    p,
+    .footerContainer,
+    .templatefooter p {
+        font-weight: 400;
+        line-height: 1.5 !important;
+        font-size: 16px !important
+    }
+
+    .webContent__content .field-help,
+    .webContent__content .invalid-error,
+    #mcnSignUpFormContentContainer,
+    #mc-EMAIL,
+    #mc-FNAME,
+    #mc-EMPRESA,
+    #button,
+    #content__formFields label,
+    .content__formFields label,
+    label,
+    .webContent__content .button,
+    .button {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5 !important;
+        color: #222 !important;
+    }
+
+    .mcnSignUpFormContentContainer .button {
+        padding: 15px !important
+    }
+
+    .mcnCaptionBottomImageContent img:hover,
+    .templateSummary img:hover {
+        transition: 0.15s !important;
+        border-radius: 5px !important;
+    }
+
+    .mcnCaptionBlockInner img {
+        border-radius: 5px !important;
+    }
+
+    .mcnCaptionBottomImageContent img:hover,
+    .templateSummary img:hover {
+        background-color: #ffcc00 !important;
+    }
+
+    .mcnPageBannerContainer {
+        padding: 10px 20px !important;
+    }
+
+    .botao,
+    .button {
+        border-radius: 8px !important;
+        padding: 5px 15px !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.3px !important;
+	margin:0 auto !important;
+    }
+
+    .aboutUsContainer .mcnTextContent p,
+    .aboutUsContainer .mcnTextContent .chamada {
+        padding-right: 40px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /***--- HEADER ---***/
+
+.titulo-header {
+        color: #fff;
+        font-family: Sora;
+        font-size: 36px;
+	line-height: 1.4 !important;
+        font-weight: 700
+    }
+
+.texto-header{
+	margin-top:50px
+}
+
+.texto-header p{
+	color:#fff !important;
+	font-size:16px !important;
+	line-height:1.5 !important
+}
+
+.texto-header a{
+	background-color:#ffcc00;
+	padding:10px 15px;
+	font-size:16px;
+	color:#333;
+	border-radius:8px;
+}
+
+
+.texto-header a::before{
+	content:"Veja aqui"
+}
+
+    .cabecalho {
+        display: table-cell;
+        height: 50px;
+        vertical-align: middle
+    }
+
+.slogan{
+	line-height:1 !important;
+	margin:20px 0px 10px !important
+}
+
+
+
+
+
+
+
+
+
+    /***--- NOTIFICAÇÃO ---***/
+
+.mcnPageBannerContentContainer .notification p a,
+    .notification p,
+    .mcnPageBannerContainer p,
+    .notification a,
+    .mcnPageBannerContainer a {
+        color: #fff !important;
+        font-size: 16px !important;
+        line-height: 140% !important;
+        margin: 0px !important;
+        padding: 0px !important
+    }
+
+    .notification a,
+    .mcnPageBannerContainer a {
+        text-decoration: none !important;
+        font-weight: 700 !important
+    }
+
+    .mcnPageBannerContainer {
+        background-color: #222 !important;
+        color: #fff !important;
+        border: none !important;
+        padding: 10px 15px !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /***--- REDES SOCIAIS ---***/
+    
+    .social {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        color:#fff
+    }
+
+    .social a{
+    text-align:left;
+    line-height:1.4;
+    color:#fff !important;
+    font-size:22px !important;
+    font-weight:700 !important
+    }
+
+    .redesocial {
+        aspect-ratio:5 / 4;
+        display: block !important;
+        padding: 30px 25px !important;
+        border-radius: 5px !important;
+    }
+
+    .social h2 {
+        letter-spacing: -0.5px !important
+    }
+
+    .whatsapp {
+        background-image: linear-gradient(to bottom right, #25D366, rgba(0, 0, 0, 0));
+    }
+
+    .linkedin {
+        background-image: linear-gradient(to bottom right, #0E76A8, rgba(0, 0, 0, 0));
+    }
+
+    .instagram {
+        background-image: linear-gradient(to bottom right, #BC2A8D, rgba(0, 0, 0, 0));
+    }
+
+    .whatsapp::before,
+    .linkedin::before,
+    .instagram::before {
+        display: inline-block !important;
+        font-weight: 400;
+        font-size:21px
+}
+
+    .whatsapp::before {
+        content: "Nosso time está disponível no";
+    }
+
+    .linkedin::before {
+        content: "Veja as novidades em automação no";
+    }
+
+    .instagram::before {
+        content: "Siga e acompanhe a Turck no";
+    }
+
+    .redesocial a,
+    a .redesocial,
+    .redesocial h2 {
+        font-family: Sora !important;
+        font-size: 24px !important;
+        color: #fff !important;
+    }
+
+    .redesocial h2 {
+        text-align: left
+    }
+
+    .social .botao {
+        background-color: transparent !important;
+        padding: 10px 0px !important;
+        float: none !important;
+        text-align: left !important;
+        margin: 0px !important;
+        display: block !important;
+    }
+
+    .social .botao::before {
+        content: "Clique aqui"
+    }
+
+    .redesocial h2,
+    .redesocial .botao {
+        color: #fff !important;
+        margin: 5px 0px 0px 0px
+    }
+
+
+
+    .rodape1,
+    .rodape2,
+    .rodape2 a,
+    .rodape1 a {
+        font-family: Sora !important;
+        font-weight: 400;
+        font-size: 18px !important;
+        color: #888 !important;
+    }
+
+    .rodape2 {
+        text-align: right
+    }
+
+
+
+
+
+
+
+
+
+
+    /***--- SOLUÇÃO ---***/ .solucao {
+        margin: 20px 0px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        gap: 0px 30px;
+        border-radius: 15px;
+        color: #333;
+        letter-spacing: -0.5px;
+    }
+
+    .solucao-titulo {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.4;
+        font-family: Sora;
+        padding: 40px;
+    }
+
+    .solucao-imagem {
+        height: 100% !important;
+        background-size: cover;
+        border-radius: 00px 10px 10px 0px;
+    }
+
+    .solucao-texto {}
+
+    .solucao-tag {
+        color: #aaa;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+    /***--- PRODUTOS - COMO OS ITENS NA PAGINA DE SENSORES ---***/
+    
+    .produto {
+        margin: 0px;
+        background-image: linear-gradient(#fdfcfc, #fdfcfc, rgba(255, 255, 255, 0)) !important;
+        font-family:Sora;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 0px 30px;
+        border-radius: 15px;
+        color: #333;
+        letter-spacing: -0.5px;
+    }
+
+    .produto-titulo {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+        font-family: Sora;
+	text-align:center;
+        padding: 10px 15px 15px;
+    }
+
+    .produto-titulo p {
+        font-size: 16px !important;
+        line-height: 130% !important;
+        font-family: Sora !important;
+    }
+
+    .produto-imagem {
+        width: 100% !important;
+        background-size: cover;
+        aspect-ratio: 1 / 1 !important;
+        border-radius: 10px 10px 00px 0px;
+    }
+
+    .produto-texto {
+        margin-top: 20px;
+    }
+
+    .produto-texto a {
+        margin: 0px !important
+    }
+
+    .produto-tag {
+        color: #aaa;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .produto-texto .botao {
+        padding: 10px 20px !important
+    }
+
+    .templatePurchase .mcnVideoBlock {
+        margin: 40px 0px;
+	}
+
+
+
+
+
+
+
+
+
+    /***--- TITULOS DE SEÇÕES - COMO NA PAGINA DE SENSORES ---***/
+
+    #nome-categoria {
+        padding-top: 50px;
+        font-size: 30px;
+        padding-bottom: 20px;
+        border-bottom: solid 3px #ffcc00;
+        display: grid;
+        gap: 0px;
+        grid-template-columns: 3fr 1fr
+    }
+
+    .link-lp {
+        text-align: right
+    }
+
+    .link-lp a {
+        font-weight: 400 !important;
+        text-align: center;
+        display: inline;
+        width: auto;
+        font-size: 16px;
+        border-radius: 8px;
+
+    }
+
+    .link-lp a::after {
+        content: " e conheça mais"
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /***--- E-BOOK ---***/
+
+    .ebook {
+        height: auto;
+        background-position: center;
+        background-size: cover;
+        padding: 30px 0px;
+        border-radius: 7px !important;
+    }
+
+    .texto-ebook {
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+        width: 50%;
+        margin: auto;
+        font-family: Sora;
+        color: #fff;
+        text-shadow: 0px 0px 20px #000;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    a .ebook {
+        color: #fff !important
+    }
+
+    a .ebook,
+    .texto-ebook p {
+        color: #fff !important;
+        text-align: center !important;
+    }
+
+    .texto-ebook .button {
+        margin-top: 10px;
+        background-color: #ffcc00 !important;
+        text-shadow: none;
+        padding: 8px 15px !important;
+        height: auto;
+        text-transform: none !important;
+        font-weight: 700 !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    /***--- GRUPO - COMO NA PAGINA DE SUSTENTABILIDADE ---***/
+
+.grupo {
+    margin: 50px 0px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 0px 20px;
+    border-radius: 15px !important;
+    color: #333;
+    height: 400px;
+    letter-spacing: -0.5px;
+    background-size: 130%;
+    background-position: right top;
+    align-items: center
+}
+
+.grupo a {
+    text-decoration: none !important;
+    letter-spacing: -.0.5px !important;
+    font-weight: normal !important
+}
+
+.grupo h3,
+.grupo p {
+    text-align: left;
+    color: #fff !important
+}
+
+.grupo-itens {
+    padding-right: 35px;
+    letter-spacing: 0px !important;
+    display: grid;
+    gap: 30px;
+    grid-template-rows: repeat(1fr);
+}
+
+.grupo-item {
+    line-height: 130%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+    background-color: #eee;
+    width: 100%;
+    padding: 15px;
+    font-family: Sora;
+    font-size: 16px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 2fr 3fr
+}
+
+.grupo-titulo {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.grupo-texto {
+    line-height: 125%;
+    font-size: 14px
+}
+
+.grupo-botao {
+    padding: 5px 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block !important;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 700 !important;
+    letter-spacing: 0px !important
+}
+
+.grupo-botao::before {
+    content: "Veja mais"
+}
+
+.grupo .conteudo {
+    height: 100% !important;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .9), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.0));
+    display: grid;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px 50px 30px 80px;
+    text-shadow: 0px 0px 50px #000
+}
+
+.ods {
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    font-family: Sora;
+    display: grid;
+    max-width: 300px;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    color: #fff;
+    line-height: 110%;
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    gap: 15px;
+    margin: 15px 0px !important
+}
+
+.ods .numero-meta {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 5px
+}
+
+.ods .numero-meta::before {
+    content: "ODS";
+    font-size: 13px;
+    display: block;
+    font-weight: 400
+}
+
+
+
+
+
+
+
+    /***--- MENU SENSORES - ESPECIFICO DA PAGINA DE SENSORES ---***/
+
+    .menu-sensores {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center !important;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: -0.5px;
+        font-family: Sora;
+        color: #333;
+        font-weight: 700;
+        gap: 30px;
+	margin-bottom:50px;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+
+    .item-sensores {
+        display: grid;
+        align-items: center !important;
+        text-align: center;
+        justify-items: center !important;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        aspect-ratio: 4 / 2 !important;
+        transition: 0.1s
+    }
+
+    .item-sensores:hover {
+        transform: scale(1.1)
+    }
+
+    .templateHeader,
+    .templateFooter,
+    .templateAboutUs,
+    .templateTestimonials {
+        z-index: 9999;
+    }
+
+    .templateTestimonials {
+        display: grid;
+        align-items: center
+    }
+
+    #menu-titulo {
+	margin-top:50px;
+        color: #333 !important;
+        font-family: Sora;
+        font-size: 30px;
+        line-height: 140%
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /***--- BOTÃO VOLTAR AO MENU ---***/
+
+    .btn {
+        border-radius: 5px;
+        z-index: 9998;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed !important;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px 15px;
+        width: 150px;
+        font-size: 16px !important;
+        height: 50px;
+        background-color: #ffcc00;
+        text-decoration: none;
+    }
+
+    .btn::after {
+        margin-left: 10px;
+        content: "↑";
+        font-weight: bold;
+        color: #333;
+        transition: margin-top 250ms;
+    }
+
+    .btn:hover::after {
+        margin-top: -8px;
+    }
+
+    .templateTestimonials,
+    .templateAboutUs,
+    .templateFooter{
+	z-index:9999;
+}
+
+
+
+
+
+
+
+
+
+    /***--- PAGINA DE CATALOGOS ---***/
+
+    .mcnTextContent a,
+    a .catalogo,
+    a .titulo-catalogo {
+        width: auto !important
+    }
+
+    .catalogo {
+        border: 1px solid #fff;
+        background-position: -100px -0px !important;
+        background-size: cover;
+        height: 300px;
+        text-align: center !important;
+        border-radius: 5px !important;
+        overflow: hidden;
+        text-overflow: clip;
+        transition: 0.5s;
+    }
+
+    .catalogo:hover {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .tag-catalogo {
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: rgba(255, 204, 0);
+        color: #222;
+        font-size: 70%;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: none;
+        margin-bottom: 10px;
+        letter-spacing: 0px;
+        border-radius: 3px;
+        transition: 0.5s;
+
+    }
+
+    .texto-catalogo {
+        height: 150px;
+        display: block
+    }
+
+    a .texto-catalogo,
+    a. .catalogo .text-catalogo {
+        text-decoration: none;
+        color: #fff
+    }
+
+
+    .titulo-catalogo {
+        display: block;
+        vertical-align: bottom !important;
+        box-shadow: inset 0px 0px 300px rgba(0, 0, 0, 0.9);
+        font-family: Sora !important;
+        height: 350px !important;
+        color: #fff !important;
+        text-align: left;
+        text-shadow: 0px 0px 20px #222;
+        letter-spacing: -0.5px !important;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        padding: 30px 20px;
+        transition: 0.4s !important;
+    }
+
+    .catalogo:hover .titulo-catalogo {
+        box-shadow: inset 0px 0px 300px rgba(0, 0, 0, 0.0);
+
+    }
+
+
+    .botao-catalogo {
+        transition: 0.5s;
+        display: block;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-top: 15px;
+        color: #ffcc00;
+        text-align: center;
+        text-shadow: none;
+        padding: 7px;
+        font-size: 14px;
+        border-radius: 6px;
+    }
+
+    .catalogo:hover .tag-catalogo,
+    .catalogo:hover .texto-catalogo,
+    .catalogo:hover .botao-catalogo {
+        opacity: 0 !important
+    }
+
+
+    .botao-catalogo::before {
+        content: "ver mais"
+    }
+
+    .marcado {
+        display: inline;
+        background-color: #222;
+        padding: 6px 10px;
+        color: #fff
+    }
+
+
+
+
+
+
+
+
+
+
+    /***--- MEDIA SCREEN - RESOLUÇÃO - RESPONSIVO ---***/
+
+    @media screen and (max-width: 1280px) {
+        .item-sensores {
+            aspect-ratio: 3 / 1 !important;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        .slogan {
+            display: none !important
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+
+        .solucao {
+            margin: 20px 0px;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+            display: grid;
+            gap: 0px 30px;
+            border-radius: 15px;
+            color: #333;
+            letter-spacing: -0.5px;
+            grid-template-columns: 1fr !important;
+        }
+
+        .solucao-titulo {
+            padding: 20px !important;
+        }
+
+        .solucao-imagem {
+            width: 100% !important;
+            border-radius: 5px !important;
+            aspect-ratio: 1 / 1 !important;
+        }
+
+        .mcnPageBannerContentContainer .notification p a,
+        .notification p,
+        .mcnPageBannerContainer p,
+        .notification a,
+        .mcnPageBannerContainer a {
+            font-size: 14px !important;
+        }
+
+        .templateFooter img {
+            max-width: 60% !important;
+            margin: 0 auto !important;
+        }
+
+        .social {
+            display: block !important;
+            grid-template-columns: auto !important;
+            gap: 0px !important;
+        }
+
+        h1 {
+            padding: 20px 10px 10px !important
+        }
+
+        .rodape1,
+        .rodape2 {
+            text-align: center !important;
+            font-size: 80% !important;
+        }
+
+        .texto-ebook {
+            width: 80% !important;
+            margin: auto !important;
+        }
+
+        .mcnCaptionBottomImageContent img {
+            width: 80% !important;
+            margin: auto !important;
+        }
+
+        .redesocial {
+            width: 100% !important;
+            margin: 0px 0px !important;
+        }
+
+        .aboutUsContainer .mcnTextContent p,
+        .aboutUsContainer .mcnTextContent .chamada {
+            padding-right: 0px
+        }
+
+        h1 {
+            margin: 0px !important;
+            padding-top: 0px !important;
+        }
+
+        .mcnTextContent h4,
+        h4 {
+            font-size: 18px !important;
+            margin: 25px 0px 15px !important;
+            line-height: 120% !important;
+        }
+
+        .botao,
+        a h5 {
+            font-size: 24px !important;
+            padding: 10px 20px !important;
+        }
+
+        .rodape2 {
+            text-align: center !important
+        }
+
+        .headercontainer .mcnCaptionBlock .mcnTextContent,
+        .templateHeader .mcnCaptionBlock .mcnTextContent {
+            display: none !important;
+        }
+
+        .headercontainer img,
+        .templateHeader img {
+            align-self: center !important;
+            max-width: 75% !important
+        }
+
+        .tag-catalogo,
+        .texto-catalogo,
+        .botao-catalogo {
+            font-size: 26px !important
+        }
+    }
+
+
+    @media screen and (min-width: 800px) {
+        .mcnPageBannerContainer {
+            width: 70% !important;
+            margin: auto !important;
+        }
+    }
+</style>
+
