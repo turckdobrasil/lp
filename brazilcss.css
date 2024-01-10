@@ -956,6 +956,26 @@
 
 
 
+    /***---- FORMULÁRIO ----***/
+
+input,
+#mc-EMAIL,
+mc-EMAIL,
+#mc-FNAME,
+mc-FNAME,
+#mc-EMPRESA,
+mc-EMPRESA,
+.invalid,
+.button,
+.invalid-error{
+	font-family:Sora !important;
+	color:#333 !important
+}
+
+
+
+
+
 
     /***--- MEDIA SCREEN - RESOLUÇÃO - RESPONSIVO ---***/
 
@@ -1091,4 +1111,3 @@
         }
     }
 </style>
-
