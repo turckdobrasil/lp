@@ -186,7 +186,7 @@
         padding-right: 40px
     }
 
-.templateSummary p, templateDetails{
+.templateSummary p, .templateDetails p{
 	font-size:15px !important
 }
 
