@@ -534,13 +534,13 @@
     /***--- TITULOS DE SEÇÕES - COMO NA PAGINA DE SENSORES ---***/
 
     #nome-categoria {
-        padding-top: 50px;
-        font-size: 30px;
-        padding-bottom: 20px;
-        border-bottom: solid 3px #ffcc00;
-        display: grid;
-        gap: 0px;
-        grid-template-columns: 3fr 1fr
+        padding-top: 50px !important;
+        font-size: 30px !important;
+        padding-bottom: 20px !important;
+        border-bottom: solid 3px #ffcc00 !important;
+        display: grid !important;
+        gap: 0px !important;
+        grid-template-columns: 3fr 1fr !important
     }
 
     .link-lp {
