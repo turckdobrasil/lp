@@ -178,7 +178,7 @@
         padding: 5px 15px !important;
         font-weight: 700 !important;
         letter-spacing: -0.3px !important;
-	margin:0 auto !important;
+	margin:20px;
     }
 
     .aboutUsContainer .mcnTextContent p,
@@ -508,7 +508,9 @@
     }
 
     .produto-texto .botao {
-        padding: 10px 20px !important
+        padding: 10px 20px !important;
+	margin:0 auto !important;
+
     }
 
     .templatePurchase .mcnVideoBlock {
