@@ -190,6 +190,11 @@
 	font-size:15px !important
 }
 
+.templateSummary h4, .templateDetails h4{
+	font-size:18px !important;
+	letter-spacing: -0.2px !important;
+}
+
 
 
 
