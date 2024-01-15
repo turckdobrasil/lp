@@ -259,6 +259,10 @@
 
     /***--- NOTIFICAÇÃO ---***/
 
+    .mcnPageBannerContentContainer {
+	z-index:9999 !important
+    }
+
     .mcnPageBannerContentContainer p,
     .notification p a,
     .notification p,
