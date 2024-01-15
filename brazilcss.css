@@ -259,6 +259,11 @@
 
     /***--- NOTIFICAÇÃO ---***/
 
+    .mcnTemplatePageBanner{
+	    display:none !important
+    }
+
+
     .mcnPageBannerContentContainer {
 	z-index:9999 !important
     }
