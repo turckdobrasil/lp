@@ -165,7 +165,7 @@
 
     .mcnCaptionBottomImageContent img:hover,
     .templateSummary img:hover,
-img{
+    .mcnImage img{
         background-color: #ffcc00 !important;
     }
 
