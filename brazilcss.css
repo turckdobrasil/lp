@@ -259,7 +259,8 @@
 
     /***--- NOTIFICAÇÃO ---***/
 
-.mcnPageBannerContentContainer .notification p a,
+    .mcnPageBannerContentContainer p,
+    .notification p a,
     .notification p,
     .mcnPageBannerContainer p,
     .notification a,
