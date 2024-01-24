@@ -1060,13 +1060,16 @@ mc-EMPRESA,
             font-size: 14px !important;
         }
 
-        .templateFooter img {
-            max-width: 60% !important;
+        .mcnCaptionLeftContentInner,
+	    .templateFooter img {
+            width: 60% !important;
             margin: 0 auto !important;
         }
 
     .social {
-        display: block !important;
+        grid-template-columns: auto !important;
+        grid-template-rows: repeat(3, 30px) !important;
+        gap: 30px;
         }
 
     
