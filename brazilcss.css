@@ -1035,7 +1035,9 @@ mc-EMPRESA,
 
 @media screen and (max-width: 800px) {
     .slogan {
-        display: none !important .solucao {
+        display: none !important}
+    
+    .solucao {
             margin: 20px 0px;
             box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
             display: block !important;
