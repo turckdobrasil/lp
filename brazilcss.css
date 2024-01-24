@@ -1071,6 +1071,14 @@ mc-EMPRESA,
             gap: 30px;
         }
 
+        .redesocial i,
+        .whatsapp i,
+        .linkedin i,
+        .instagram i{
+            font-size:30px !important
+        }
+    
+        .redesocial strong,
         .whatsapp strong,
         .linkedin strong,
         .instagram strong{
