@@ -1032,7 +1032,7 @@ mc-EMPRESA,
         .solucao {
             margin: 20px 0px;
             box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-            display: grid;
+            display: block !important;
             gap: 0px 30px;
             border-radius: 15px;
             color: #333;
