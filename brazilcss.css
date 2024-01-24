@@ -404,6 +404,10 @@ a .redesocial,
     grid-template-columns:repeat (2, 1fr);
 }
 
+.rodape,
+.rodape p,
+.rodape1 p,
+.rodape2 p,
 .rodape1,
 .rodape2,
 .rodape2 a,
