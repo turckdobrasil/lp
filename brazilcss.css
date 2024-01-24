@@ -1066,7 +1066,7 @@ mc-EMPRESA,
 
     .social {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto !important;
 	grid-template-rows: repeat(3, 50px) !important;
         }
 
