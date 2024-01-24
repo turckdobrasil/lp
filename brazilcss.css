@@ -1019,9 +1019,9 @@ mc-EMPRESA,
 
 
 
-/***--- MEDIA SCREEN - RESOLUÇÃO - RESPONSIVO ---***/
+/***--- MEDIA screen  - RESOLUÇÃO - RESPONSIVO ---***/
 
-@media (max-width: 800px) {
+@media and screen (max-width: 800px) {
     .slogan {
         display: none !important
     }
@@ -1167,7 +1167,7 @@ mc-EMPRESA,
 
 
 
-@media (min-width: 800px) {
+@media and screen (min-width: 800px) {
     .mcnPageBannerContainer {
         width: 70% !important;
         margin: auto !important;
