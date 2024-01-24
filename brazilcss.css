@@ -401,10 +401,13 @@ a .redesocial,
 
 /***---- RODAPE ---***/
 .rodape{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
     text-align:center;
 }
 
 .rodape,
+.rodape a,
 .rodape p,
 .rodape1 p,
 .rodape2 p,
@@ -1084,7 +1087,7 @@ mc-EMPRESA,
         }
 
         .rodape{
-            display:block !important
+            grid-template-columns:1fr !important;
         }
     
         .rodape1,
