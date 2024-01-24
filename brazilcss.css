@@ -396,13 +396,21 @@ a .redesocial,
 
 
 
+
+
+/***---- RODAPE ---***/
+.rodape{
+    display:grid;
+    grid-template-columns:repeat (2, 1fr);
+}
+
 .rodape1,
 .rodape2,
 .rodape2 a,
 .rodape1 a {
     font-family: Sora !important;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     color: #888 !important;
 }
 
@@ -1069,6 +1077,10 @@ mc-EMPRESA,
             padding: 20px 10px 10px !important
         }
 
+        .rodape{
+            display:block !important
+        }
+    
         .rodape1,
         .rodape2 {
             text-align: center !important;
