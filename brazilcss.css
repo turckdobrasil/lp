@@ -1069,20 +1069,18 @@ mc-EMPRESA,
         }
 
         .social {
-            grid-template-columns: auto !important;
-            grid-template-rows: repeat(3, 30px) !important;
-            gap: 30px;
+            display: block !important;
         }
 
     .redesocial strong{
-        display:none !important
+        display: none !important;
     }
   
         .redesocial .nomerede,
         .whatsapp .nomerede,
         .linkedin .nomerede,
         .instagram .nomerede{
-            display:none !important
+            display: none !important;
         }
 
         h1 {
