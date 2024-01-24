@@ -352,12 +352,13 @@ label,
     background-image: linear-gradient(to bottom right, #BC2A8D, rgba(0, 0, 0, 0));
 }
 
+.redesocial i,
 .whatsapp i,
 .linkedin i,
 .instagram i {
     display: inline-block !important;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 30px !important;
     margin-right:15px;
     font-family: "FontAwesome";
     color: #fff;
@@ -1071,17 +1072,11 @@ mc-EMPRESA,
             gap: 30px;
         }
 
-        .redesocial i,
-        .whatsapp i,
-        .linkedin i,
-        .instagram i{
-            font-size:30px !important
-        }
-    
-        .redesocial strong,
-        .whatsapp strong,
-        .linkedin strong,
-        .instagram strong{
+  
+        .redesocial .nomerede,
+        .whatsapp .nomerede,
+        .linkedin .nomerede,
+        .instagram .nomerede{
             display:none !important
         }
 
