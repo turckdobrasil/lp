@@ -1060,10 +1060,10 @@ mc-EMPRESA,
             margin: 0 auto !important;
         }
 
-        .social {
-            display: block !important;
-            grid-template-columns: auto !important;
-            gap: 0px !important;
+    .social {
+        display: grid;
+        grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 50px) !important;
         }
 
         h1 {
