@@ -1074,6 +1074,9 @@ mc-EMPRESA,
             gap: 30px;
         }
 
+    .redesocial strong{
+        display:none !important
+    }
   
         .redesocial .nomerede,
         .whatsapp .nomerede,
