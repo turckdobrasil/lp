@@ -353,10 +353,22 @@
     .instagram::before {
         display: inline-block !important;
         font-weight: 400;
-        font-size:21px;
+        font-size:22px;
 	font-family:"FontAwesome";
 	color:#fff;
 }
+
+    .whatsapp::before {
+        content: "" !important;
+    }
+
+    .linkedin::before {
+        content: "" !important;
+    }
+
+    .instagram::before {
+        content: "" !important;
+    }
 
     .redesocial a,
     a .redesocial,
@@ -1057,24 +1069,7 @@ mc-EMPRESA,
         display: block !important;
         }
 
-	.redesocial{
-		font-size:0px !important;
-		color:rgba(0,0,0,0)
-	}
-	    
-    .whatsapp::before {
-        content: "";
-    }
-
-    .linkedin::before {
-        content: "";
-    }
-
-    .instagram::before {
-        content: "";
-    }
-
-
+    
         h1 {
             padding: 20px 10px 10px !important
         }
@@ -1144,6 +1139,12 @@ mc-EMPRESA,
             font-size: 26px !important
         }
     }
+
+
+
+
+
+
 
 
     @media screen and (min-width: 800px) {
