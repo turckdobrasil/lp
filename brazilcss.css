@@ -1045,7 +1045,12 @@ mc-EMPRESA,
             letter-spacing: -0.5px;
             grid-template-columns: 1fr !important;
         }
-
+        .menu-sensores{
+            display:block !important;
+        }
+        .item-sensores{
+            margin-bottom:15px !important
+        }
         .solucao-titulo {
             padding: 20px !important;
         }
