@@ -1026,6 +1026,10 @@ mc-EMPRESA,
         .slogan {
             display: none !important
 
+	.banner-destaques{
+		display:block !important
+	}
+	    
         .solucao {
             margin: 20px 0px;
             box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
