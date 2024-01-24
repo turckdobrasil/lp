@@ -397,7 +397,7 @@
     .rodape1 a {
         font-family: Sora !important;
         font-weight: 400;
-        font-size: 18px !important;
+        font-size: 18px;
         color: #888 !important;
     }
 
@@ -1057,6 +1057,11 @@ mc-EMPRESA,
         display: block !important;
         }
 
+	.redesocial{
+		font-size:0px !important;
+		color:rgba(0,0,0,0)
+	}
+	    
     .whatsapp::before {
         content: "";
     }
@@ -1077,7 +1082,7 @@ mc-EMPRESA,
         .rodape1,
         .rodape2 {
             text-align: center !important;
-            font-size: 80% !important;
+            font-size: 14px !important;
         }
 
         .texto-ebook {
