@@ -438,8 +438,6 @@ a .redesocial,
 
 /***--- SOLUÇÃO ---***/
 
-@media screen and (min-width: 800px) {
-
 .solucao {
     margin: 20px 0px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
@@ -453,7 +451,6 @@ a .redesocial,
     padding: 50px 30px;
     height: auto;
     align-items: center;
-}
 }
 
 .solucao-titulo {
@@ -1024,7 +1021,7 @@ mc-EMPRESA,
 
 /***--- MEDIA SCREEN - RESOLUÇÃO - RESPONSIVO ---***/
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .slogan {
         display: none !important
     }
@@ -1170,7 +1167,7 @@ mc-EMPRESA,
 
 
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
     .mcnPageBannerContainer {
         width: 70% !important;
         margin: auto !important;
