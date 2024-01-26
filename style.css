@@ -313,7 +313,13 @@ label,
 
 
 
+/***--- AUTORIZADO BANNER ---***/
 
+.autorizadobanner p{
+    font-size:16px !important;
+    font-family: Sora !important;
+    color:#222 !important;
+}
 
 
 
