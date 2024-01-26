@@ -272,6 +272,10 @@ label,
     z-index: 0 !important
 }
 
+.notification{
+    margin-top:25px
+}
+
 .mcnPageBannerContentContainer p,
 .notification p a,
 .notification p,
