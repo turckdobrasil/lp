@@ -795,7 +795,7 @@ a .ebook,
 /***--- MENU SENSORES - ESPECIFICO DA PAGINA DE SENSORES ---***/
 
 .menu-sensores {
-    display: grid !important;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     align-items: center !important;
