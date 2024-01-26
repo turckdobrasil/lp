@@ -30,6 +30,7 @@ h3,
 h4,
 h5,
 h6,
+.nome-categoria,
 #nome-categoria,
 p,
 .footerContainer,
@@ -90,7 +91,8 @@ h1 {
 h1,
 h3,
 h4,
-#nome-categoria {
+#nome-categoria,
+.nome-categoria{
     font-weight: 700;
 }
 
@@ -573,6 +575,7 @@ a .redesocial,
 
 /***--- TITULOS DE SEÇÕES - COMO NA PAGINA DE SENSORES ---***/
 
+.nome-categoria,
 #nome-categoria {
     padding-top: 50px !important;
     font-size: 30px !important;
