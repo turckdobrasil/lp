@@ -902,6 +902,19 @@ a .ebook,
 
 
 
+/***--- FORMULARIO ---***/
+
+.templateSummary{
+	background-color:#ffcc00 !important;
+}
+
+.mcnSignUpFormContentContainer .button{
+    background-color:#222;
+    color:#fff;
+    font-size:18px !important;
+    font-weight:700 !important;
+}
+
 
 
 /***--- PAGINA DE CATALOGOS ---***/
