@@ -908,6 +908,7 @@ a .ebook,
 	background-color:#ffcc00 !important;
 }
 
+.webContent__content .button,
 .templateSummary .button,
 .mcnSignUpFormContentContainer .button{
     background-color:#222;
