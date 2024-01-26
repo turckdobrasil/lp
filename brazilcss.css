@@ -325,7 +325,8 @@ label,
     line-height: 1.4;
     color: #fff !important;
     font-size: 22px !important;
-    font-weight: 700 !important
+    font-weight: 700 !important;
+    margin-bottom:10px;
 }
 
 .redesocial {
