@@ -216,7 +216,8 @@ label,
     font-family: Sora;
     font-size: 36px;
     line-height: 1.4 !important;
-    font-weight: 700
+    font-weight: 700;
+    text-align:left !important;
 }
 
 .texto-header {
@@ -224,6 +225,8 @@ label,
 }
 
 .texto-header p {
+    text-align:left !important;
+    font-family:Sora;
     color: #fff !important;
     font-size: 16px !important;
     line-height: 1.5 !important
