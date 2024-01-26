@@ -224,7 +224,8 @@ label,
     margin-top: 50px
 }
 
-.texto-header p {
+.texto-header p,
+.texto-header{
     text-align:left !important;
     font-family:Sora;
     color: #fff !important;
