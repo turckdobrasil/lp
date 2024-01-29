@@ -55,6 +55,11 @@ a h5,
     color: #333 !important;
 }
 
+.centro{
+	text-align:center !important;
+	margin:0 auto !important;
+	width:auto !important;
+}
 
 .slogan p,
 h1,
