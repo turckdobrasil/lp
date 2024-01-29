@@ -171,6 +171,7 @@ label,
 .templateSummary img:hover,
 .mcnImage img {
     background-color: #ffcc00 !important;
+    background:#ffcc00 !important;
 }
 
 .mcnPageBannerContainer {
@@ -897,7 +898,10 @@ a .ebook,
 }
 
 
-
+.templateHeader img{
+    width: 80% !important;
+    margin: 0 auto !important;
+}
 
 
 
