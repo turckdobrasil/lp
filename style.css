@@ -1003,8 +1003,8 @@ a .ebook,
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5)
 }
 
-.calltoaction p,
-.calltoaction{
+#calltoaction p,
+#calltoaction{
 	text-align:center !important
 }
 
