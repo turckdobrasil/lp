@@ -929,7 +929,7 @@ a .ebook,
   font-size:20px;
   background: transparent;
   cursor: pointer;
-  box-shadow:0px 0px 20px #aaa;
+  box-shadow:0px 0px 20px rgba(150,150,150,0.5);
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
@@ -939,6 +939,7 @@ a .ebook,
 .botao-formulario {
   border: none;
   background:#ffcc00;
+  margin:0 auto !important;
   color: #222;
   padding:20px 30px;
   overflow: hidden;
@@ -957,7 +958,7 @@ a .ebook,
 }
 
 .dot::before{
-    content: 'Solicite aqui a sua demonstração com um especialista';
+    content: 'Solicite aqui a sua demonstração com um especialista' !important;
 }
 
 .botao-formulario:active{
