@@ -260,6 +260,20 @@ label,
     margin: 20px 0px 10px !important
 }
 
+.templateHeader{
+	background-color: #222
+}
+
+.templateHeader img{
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+
+
+
+
+
+
 
 
 
@@ -898,10 +912,6 @@ a .ebook,
 }
 
 
-.templateHeader img{
-    width: 80% !important;
-    margin: 0 auto !important;
-}
 
 
 
