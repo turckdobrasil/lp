@@ -128,7 +128,7 @@ h5 {
 }
 
 .chamada {
-	color:#ffcc00;
+    color:#ffcc00 !important;
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 20px;
