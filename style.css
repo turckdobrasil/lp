@@ -189,7 +189,7 @@ label,
 .mcnButtonContentContainer, .mcnButton,
 .mcnButtonContentContainer a, .mcnButton a{
 	font-family:Sora !important;
-	
+	padding:15px;
 }
 
 .botao,
