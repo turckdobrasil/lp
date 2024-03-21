@@ -221,6 +221,10 @@ label,
 
 
 /***--- HEADER ---***/
+.templateHeader{
+	padding:50px 0px !important;
+}
+
 .templateHeader img{
 	box-shadow:0px 0px 40px #000 !important;
 }
