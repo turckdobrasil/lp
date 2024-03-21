@@ -222,6 +222,12 @@ label,
 
 /***--- HEADER ---***/
 
+.tag-header{
+	font-family:Sora !important;
+	font-weight:700 !important;
+	font-size:24px !important;
+}
+
 .titulo-header {
     color: #ffcc00;
     font-family: Sora;
