@@ -186,6 +186,12 @@ label,
     padding: 10px 20px !important;
 }
 
+.mcnButtonContentContainer, .mcnButton,
+.mcnButtonContentContainer a, .mcnButton a{
+	font-family:Sora !important;
+	
+}
+
 .botao,
 .button {
     border-radius: 8px !important;
