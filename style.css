@@ -223,6 +223,7 @@ label,
 /***--- HEADER ---***/
 
 .tag-header{
+	margin-top:30px !important;
 	font-family:Sora !important;
 	font-weight:700 !important;
 	font-size:24px !important;
@@ -251,9 +252,10 @@ label,
 }
 
 .texto-header a {
+    margin-top:30px !important;
     background-color: #ffcc00;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
     border-radius: 8px;
 }
