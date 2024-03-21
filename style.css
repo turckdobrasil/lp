@@ -223,10 +223,12 @@ label,
 /***--- HEADER ---***/
 .templateHeader{
 	padding:50px 0px 80px !important;
+	min-height:100vh !important;
 }
 
+.templateHeader .mcnImage,
 .templateHeader img{
-	box-shadow:0px 0px 40px #000 !important;
+	box-shadow:0px 0px 50px #000 !important;
 }
 
 .tag-header{
