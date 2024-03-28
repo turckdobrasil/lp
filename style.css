@@ -227,6 +227,12 @@ label,
 
 
 /***--- HEADER ---***/
+.cabecalho-menu{
+	display:grid !important;
+	grid-template-columns:auto auto auto;
+	gap:10px;
+}
+
 .templateHeader{
 	position:fixed !important;
 	background-color:#ffcc00 !important;
