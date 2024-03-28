@@ -238,11 +238,6 @@ label,
 	background-color:#ffcc00 !important;
 }
 
-.templateHeader .mcnImage,
-.templateHeader img{
-	box-shadow:0px 0px 50px #000 !important;
-}
-
 .tag-header{
 	color:#fff !important;
 	margin-top:30px !important;
