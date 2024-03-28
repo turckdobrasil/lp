@@ -228,6 +228,7 @@ label,
 
 /***--- HEADER ---***/
 .templateHeader{
+	position:fixed !important;
 	background-color:#ffcc00 !important;
 }
 
