@@ -306,6 +306,7 @@ label,
 
 .templateAboutUs{
 	background-color:#222 !important;
+	padding-top:100px !important;
 }
 
 
@@ -880,11 +881,10 @@ a .ebook,
     transform: scale(1.1)
 }
 
-.templateHeader,
 .templateFooter,
 .templateAboutUs,
 .templateTestimonials {
-    z-index: 9999;
+    z-index: 9998;
 }
 
 .templateTestimonials {
@@ -945,7 +945,7 @@ a .ebook,
 .templateTestimonials,
 .templateAboutUs,
 .templateFooter {
-    z-index: 9999;
+    z-index: 9998;
 }
 
 
