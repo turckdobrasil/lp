@@ -227,9 +227,14 @@ label,
 
 
 /***--- HEADER ---***/
-.templateHeader .mcnTextContent{
+.templateHeader .mcnTextContent,
+.templateHeader .mcnTextBlockInner,
+.templateHeader .headerContainer,
+.templateHeader .contentContainer{
 	padding:0 !important;
 	margin:0 !important;
+	display:grid !important;
+	height:100% !important;
 }
 
 .cabecalho-menu{
