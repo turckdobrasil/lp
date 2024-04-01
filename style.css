@@ -229,9 +229,17 @@ label,
 /***--- HEADER ---***/
 .cabecalho-menu{
 	display:grid !important;
-	grid-template-columns:auto auto auto;
+	grid-template-columns:auto auto;
 	gap:10px;
 	align-items:center !important;
+}
+
+.cabecalho-menu .menu{
+	text-align:left !important
+}
+
+.cabecalho-menu .logo{
+	text-align:right !important
 }
 
 .templateHeader{
@@ -293,13 +301,13 @@ label,
     vertical-align: middle
 }
 
-.slogan p {
+.slogan, .slogan p {
+	text-align:left !important;
 	color:#222 !important;
+	line-height: 1 !important;
 }
-.slogan {
-	color:#222 !important;
-    line-height: 1 !important;
-}
+
+
 
 
 .templateAboutUs{
