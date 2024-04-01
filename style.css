@@ -240,10 +240,37 @@ label,
 
 .cabecalho-menu .menu a{
 	margin:0 !important;
-	padding:0 !important;
-	background-image:linear-gradient(to left, #30c10f, #1995ee) !important;
+	color:#fff !important;
+	padding:10px 15px !important;
+    background: linear-gradient(262deg, #30c10f, #1995ee);
+    background-size: 400% 400%;
+
+    -webkit-animation: link-cabecalho 3s ease infinite;
+    -moz-animation: link-cabecalho 3s ease infinite;
+    -o-animation: link-cabecalho 3s ease infinite;
+    animation: link-cabecalho 3s ease infinite;
 }
 
+@-webkit-keyframes link-cabecalho {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes link-cabecalho {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes link-cabecalho {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes link-cabecalho {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 .cabecalho-menu .logo{
 	text-align:right !important
 }
