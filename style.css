@@ -241,6 +241,7 @@ label,
 	display:grid !important;
 	grid-template-columns:auto 211px;
 	gap:10px;
+	padding:20px 0px !important;
 	height:80px !important;
 	align-items:center !important;
 }
@@ -256,7 +257,6 @@ label,
 }
 
 .templateHeader{
-	height:80px !important;
 	position:fixed !important;
 	background-color:#ffcc00 !important;
 }
