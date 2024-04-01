@@ -234,7 +234,7 @@ label,
 
 .cabecalho-menu{
 	display:grid !important;
-	grid-template-columns:auto auto;
+	grid-template-columns:auto 211px;
 	gap:10px;
 	align-items:center !important;
 }
