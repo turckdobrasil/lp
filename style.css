@@ -241,6 +241,7 @@ label,
 	display:grid !important;
 	grid-template-columns:auto 211px;
 	gap:10px;
+	height:80px !important;
 	align-items:center !important;
 }
 
