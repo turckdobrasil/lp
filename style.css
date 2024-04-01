@@ -239,16 +239,17 @@ label,
 }
 
 .cabecalho-menu .menu a{
+	font-size:16px !important;
+	border-radius:5px !important;
 	margin:0 !important;
 	color:#fff !important;
 	padding:10px 15px !important;
-    background: linear-gradient(262deg, #30c10f, #1995ee);
-    background-size: 400% 400%;
-
-    -webkit-animation: link-cabecalho 3s ease infinite;
-    -moz-animation: link-cabecalho 3s ease infinite;
-    -o-animation: link-cabecalho 3s ease infinite;
-    animation: link-cabecalho 3s ease infinite;
+	background: linear-gradient(262deg, #30c10f, #1995ee) !important;
+	background-size: 200% 200% !important;
+    -webkit-animation: link-cabecalho 3s ease infinite !important;
+    -moz-animation: link-cabecalho 3s ease infinite !important;
+    -o-animation: link-cabecalho 3s ease infinite !important;
+    animation: link-cabecalho 3s ease infinite !important;
 }
 
 @-webkit-keyframes link-cabecalho {
