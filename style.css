@@ -227,6 +227,11 @@ label,
 
 
 /***--- HEADER ---***/
+.templateHeader .mcnTextContent{
+	padding:0 !important;
+	margin:0 !important;
+}
+
 .cabecalho-menu{
 	display:grid !important;
 	grid-template-columns:auto auto;
@@ -238,40 +243,6 @@ label,
 	text-align:left !important
 }
 
-.cabecalho-menu .menu a{
-	font-size:16px !important;
-	border-radius:5px !important;
-	margin:0 !important;
-	color:#fff !important;
-	padding:10px 15px !important;
-	background: linear-gradient(262deg, #30c10f, #1995ee) !important;
-	background-size: 200% 200% !important;
-    -webkit-animation: link-cabecalho 3s ease infinite !important;
-    -moz-animation: link-cabecalho 3s ease infinite !important;
-    -o-animation: link-cabecalho 3s ease infinite !important;
-    animation: link-cabecalho 3s ease infinite !important;
-}
-
-@-webkit-keyframes link-cabecalho {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes link-cabecalho {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes link-cabecalho {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes link-cabecalho {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 .cabecalho-menu .logo{
 	display:grid;
 	align-items:center !important;
