@@ -231,6 +231,7 @@ label,
 	display:grid !important;
 	grid-template-columns:auto auto auto;
 	gap:10px;
+	align-items:center !important;
 }
 
 .templateHeader{
@@ -293,13 +294,11 @@ label,
 }
 
 .slogan p {
-	padding-top:7px !important;
 	color:#222 !important;
 }
 .slogan {
 	color:#222 !important;
     line-height: 1 !important;
-    margin: 20px 0px 10px !important
 }
 
 
