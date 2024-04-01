@@ -272,6 +272,8 @@ label,
     100%{background-position:0% 50%}
 }
 .cabecalho-menu .logo{
+	display:grid;
+	align-items:center !important;
 	text-align:right !important
 }
 
