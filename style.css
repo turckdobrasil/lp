@@ -178,6 +178,7 @@ label,
     border-radius: 5px !important;
 }
 
+.mcnTextContent,
 .mcnCaptionBlock .mcnCaptionBlockInner .mcnTextContent{
     padding:0px !important;
     padding-right:0px !important;
