@@ -541,7 +541,7 @@ a .redesocial,
 
 
 .links-rodape {
-    margin: 30px 0px;
+    padding: 30px 0px !important;
     display: grid;
     font-size: 16px !important;
     font-family: Sora;
