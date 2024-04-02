@@ -1400,13 +1400,18 @@ mc-EMPRESA,
         position: absolute !important;
     }
 
-    .cabecalho-menu,
-    .link-cabecalho {
+    .cabecalho-menu{
         display: block !important;
     }
 
-    .cabecalho-menu .menu {
+    .cabecalho-menu .menu,
+    .link-cabecalho {
         display: none !important;
+    }
+
+    .cabecalho-menu .logo{
+        width:calc(100% - 30px) !important;
+        padding:0px 30px !important;
     }
 
     .slogan {
