@@ -394,7 +394,7 @@ label,
 	margin:20px 0px 40px !important;
 	display:grid !important;
 	grid-template-columns:200px auto !important;
-	gap:15px !important;
+	gap:30px !important;
 	opacity:0.5 !important;
 }
 
@@ -402,8 +402,7 @@ label,
 	width:200px !important;
 }
 
-.autorizadobanner .texto,
-{
+.autorizadobanner .texto{
     font-size:16px !important;
     font-family: Sora !important;
     color:#fff !important;
