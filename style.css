@@ -1245,7 +1245,7 @@ a .ebook,
 }
 
 #calltoaction {
-    padding-top: 160px !important;
+    padding-top: 160px;
 }
 
 #calltoaction p,
@@ -1392,6 +1392,10 @@ mc-EMPRESA,
 /***--- MEDIA SCREEN  - RESOLUÇÃO - RESPONSIVO ---***/
 
 @media only screen and (max-width: 600px) {
+
+    #calltoaction {
+    padding-top: 60px !important;
+}
 
     .templateHeader {
         position: absolute !important;
