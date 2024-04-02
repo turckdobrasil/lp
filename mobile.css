@@ -1,6 +1,18 @@
 <style>
 /***--- MEDIA SCREEN  - RESOLUÇÃO - RESPONSIVO ---***/
 
+@media only screen and (max-width: 600px) {
+    .templateHeader{
+        position:absolute !important;
+    }
+    .cabecalho-menu{
+    display:block !important;
+}
+
+.cabecalho-menu .menu{
+    display:none !important;
+}
+
     .slogan {
         display: none !important
     }
@@ -17,6 +29,27 @@
     height: auto;
 }
 
+    .titulo-header{
+        font-size: 24px !important;
+        letter-spacing:-0.5px !important;
+    }
+
+    .dados{
+        grid-template-columns:auto;
+        grid-template-rows:auto auto auto auto;
+        gap:20px !important;
+    }
+
+    .comparacao{
+        width:100% !important;
+        margin:0px !important;
+    }
+.comparacao .linha{
+    grid-template-columns:40% 30% 30% !important;
+}
+    .comparacao .descricao, .comparacao .turck, .comparacao .concorrentes{
+	padding:10px 10px !important}
+    
     .menu-sensores {
         display: block !important;
     }
@@ -65,6 +98,15 @@
         display: none !important;
     }
 
+    .autorizadobanner{
+        grid-template-columns:auto;
+        grid-template-rows:auto auto;
+    }
+
+    .links-rodape{
+        grid-template-columns:auto;
+        grid-template-rows:auto auto;
+    }
     h1 {
         padding: 20px 10px 10px !important
     }
@@ -150,4 +192,5 @@
         width: 70% !important;
         margin: auto !important;
     }
+}
 </style>
