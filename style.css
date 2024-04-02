@@ -222,15 +222,6 @@ label,
     letter-spacing: -0.2px !important;
 }
 
-    .mcnCaptionBlockInner,
-    .mcnTextContent{
-        width:calc(100% - 20px) !important;
-        padding-top:20px !important;
-        padding-bottom:20px !important;
-        padding-right:20px !important;
-        padding-left:20px !important;
-        padding:20px !important;
-    }
 
 
 
