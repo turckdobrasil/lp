@@ -1431,14 +1431,13 @@ mc-EMPRESA,
     }
 
     .dados {
-        display: block !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: auto !important;
         gap: 20px !important;
     }
 
     .dados .dado {
-        display: block !important
+        display: block !important;
     }
 
     .comparacao {
@@ -1511,7 +1510,6 @@ mc-EMPRESA,
     }
 
     .links-rodape {
-        display: block !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: auto !important;
     }
