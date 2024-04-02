@@ -221,11 +221,12 @@ label,
 
     .mcnCaptionBlockInner,
     .mcnTextContent{
-        padding:0px !important;
-        padding-top:0px !important;
-        padding-bottom:0px !important;
-        padding-right:0px !important;
-        padding-left:0px !important;}
+        padding:10px !important;
+        padding-top:10px !important;
+        padding-bottom:10px !important;
+        padding-right:10px !important;
+        padding-left:10px !important;
+    width:calc(100% - 20px) !important}
 
 
 
