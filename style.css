@@ -247,7 +247,7 @@ label,
 }
 
 .cabecalho-menu {
-    display: grid !important;
+    display: grid;
     grid-template-columns: auto 211px;
     gap: 10px;
     padding: 20px 0px !important;
