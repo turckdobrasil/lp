@@ -390,12 +390,22 @@ label,
 
 /***--- AUTORIZADO BANNER ---***/
 
-.autorizadobanner p,
 .autorizadobanner{
+	display:grid;
+	grid-template-columns:auto auto;
+	gap:15px;
+	opacity:0.5;
+}
+
+.autorizadobanner img{
+	width:200px !important;
+}
+
+.autorizadobanner texto,
+{
     font-size:16px !important;
     font-family: Sora !important;
     color:#fff !important;
-    margin-left:15px !important;
 }
 
 
