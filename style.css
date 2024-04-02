@@ -57,10 +57,10 @@ a h5,
     color: #333 !important;
 }
 
-.centro{
-	text-align:center !important;
-	margin:0 auto !important;
-	width:auto !important;
+.centro {
+    text-align: center !important;
+    margin: 0 auto !important;
+    width: auto !important;
 }
 
 .slogan p,
@@ -99,7 +99,7 @@ h1,
 h3,
 h4,
 #nome-categoria,
-.nome-categoria{
+.nome-categoria {
     font-weight: 700;
 }
 
@@ -128,7 +128,7 @@ h5 {
 }
 
 .chamada {
-    color:#ffcc00 !important;
+    color: #ffcc00 !important;
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 20px;
@@ -179,17 +179,19 @@ label,
 .templateSummary img:hover,
 .mcnImage img {
     background-color: #ffcc00 !important;
-    background:#ffcc00 !important;
+    background: #ffcc00 !important;
 }
 
 .mcnPageBannerContainer {
     padding: 10px 20px !important;
 }
 
-.mcnButtonContentContainer, .mcnButton,
-.mcnButtonContentContainer a, .mcnButton a{
-	font-family:Sora !important;
-	padding:15px;
+.mcnButtonContentContainer,
+.mcnButton,
+.mcnButtonContentContainer a,
+.mcnButton a {
+    font-family: Sora !important;
+    padding: 15px;
 }
 
 .botao,
@@ -230,43 +232,43 @@ label,
 .templateHeader .mcnTextContent,
 .templateHeader .mcnTextBlockInner,
 .templateHeader .headerContainer,
-.templateHeader .contentContainer{
-	padding:0 !important;
-	margin:0 !important;
-	display:grid !important;
-	height:100% !important;
+.templateHeader .contentContainer {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: grid !important;
+    height: 100% !important;
 }
 
-.cabecalho-menu{
-	display:grid !important;
-	grid-template-columns:auto 211px;
-	gap:10px;
-	padding:20px 0px !important;
-	height:80px !important;
-	align-items:center !important;
+.cabecalho-menu {
+    display: grid !important;
+    grid-template-columns: auto 211px;
+    gap: 10px;
+    padding: 20px 0px !important;
+    height: 80px !important;
+    align-items: center !important;
 }
 
-.cabecalho-menu .menu{
-	text-align:left !important
+.cabecalho-menu .menu {
+    text-align: left !important
 }
 
-.cabecalho-menu .logo{
-	display:grid;
-	align-items:center !important;
-	text-align:right !important
+.cabecalho-menu .logo {
+    display: grid;
+    align-items: center !important;
+    text-align: right !important
 }
 
-.templateHeader{
-	position:fixed !important;
-	background-color:#ffcc00 !important;
+.templateHeader {
+    position: fixed !important;
+    background-color: #ffcc00 !important;
 }
 
-.tag-header{
-	color:#fff !important;
-	margin-top:30px !important;
-	font-family:Sora !important;
-	font-weight:700 !important;
-	font-size:24px !important;
+.tag-header {
+    color: #fff !important;
+    margin-top: 30px !important;
+    font-family: Sora !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
 }
 
 .titulo-header {
@@ -275,7 +277,7 @@ label,
     font-size: 36px;
     line-height: 1.4 !important;
     font-weight: 700;
-    text-align:left !important;
+    text-align: left !important;
 }
 
 .texto-header {
@@ -283,9 +285,9 @@ label,
 }
 
 .texto-header p,
-.texto-header{
-    text-align:left !important;
-    font-family:Sora;
+.texto-header {
+    text-align: left !important;
+    font-family: Sora;
     color: #fff !important;
     font-size: 16px !important;
     line-height: 1.5 !important
@@ -315,18 +317,19 @@ label,
     vertical-align: middle
 }
 
-.slogan, .slogan p {
-	text-align:left !important;
-	color:#222 !important;
-	line-height: 1 !important;
+.slogan,
+.slogan p {
+    text-align: left !important;
+    color: #222 !important;
+    line-height: 1 !important;
 }
 
 
 
 
-.templateAboutUs{
-	background-color:#222 !important;
-	margin-top:95px !important;
+.templateAboutUs {
+    background-color: #222 !important;
+    margin-top: 95px !important;
 }
 
 
@@ -351,8 +354,8 @@ label,
     z-index: 0 !important
 }
 
-.notification{
-    margin-top:25px
+.notification {
+    margin-top: 25px
 }
 
 .mcnPageBannerContentContainer p,
@@ -390,24 +393,24 @@ label,
 
 /***--- AUTORIZADO BANNER ---***/
 
-.autorizadobanner{
-	align-items:center !important;
-	margin:20px 0px 40px !important;
-	display:grid !important;
-	grid-template-columns:200px auto !important;
-	gap:30px !important;
-	font-family: Sora !important;
-	opacity:0.5 !important;
-}
-
-.autorizadobanner .logo img{
-	width:200px !important;
-}
-
-.autorizadobanner .texto{
-    font-size:16px !important;
+.autorizadobanner {
+    align-items: center !important;
+    margin: 20px 0px 40px !important;
+    display: grid !important;
+    grid-template-columns: 200px auto !important;
+    gap: 30px !important;
     font-family: Sora !important;
-    color:#fff !important;
+    opacity: 0.5 !important;
+}
+
+.autorizadobanner .logo img {
+    width: 200px !important;
+}
+
+.autorizadobanner .texto {
+    font-size: 16px !important;
+    font-family: Sora !important;
+    color: #fff !important;
 }
 
 
@@ -429,7 +432,7 @@ label,
     color: #fff !important;
     font-size: 22px !important;
     font-weight: 700 !important;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .redesocial {
@@ -505,8 +508,8 @@ a .redesocial,
 
 /***---- RODAPE ---***/
 .rodape {
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 
@@ -534,24 +537,25 @@ a .redesocial,
 }
 
 
-.links-rodape{
-	margin:30px 0px;
-	display:grid;
-    font-size:16px !important;
-    font-family:Sora;
-    grid-template-columns:auto auto auto auto;
+.links-rodape {
+    margin: 30px 0px;
+    display: grid;
+    font-size: 16px !important;
+    font-family: Sora;
+    grid-template-columns: auto auto auto auto;
 }
 
-.links-rodape .item{
-	margin:10px 0px !important;
-    font-family:Sora;
-    font-size:16px !important;
+.links-rodape .item {
+    margin: 10px 0px !important;
+    font-family: Sora;
+    font-size: 16px !important;
 }
-.links-rodape a{
-display:block;
-color:#ffcc00 !important;
-    font-size:16px !important;
-font-weight:500 !important;
+
+.links-rodape a {
+    display: block;
+    color: #ffcc00 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
 }
 
 
@@ -605,7 +609,87 @@ font-weight:500 !important;
 
 
 
+/***--- COMPARACAO ----***/
 
+.comparacao {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.comparacao {
+    font-family: "Sora"
+}
+
+.comparacao i {
+    font-size: 25px
+}
+
+.comparacao .cabecalho {
+    border-top: none !important;
+    height: auto !important;
+    background-color: #ddd !important;
+    font-weight: 700;
+}
+
+.comparacao .descricao {
+    color: #333;
+    font-size: 16px
+}
+
+.comparacao .turck {
+    color: #333;
+}
+
+.comparacao .concorrentes {
+    display: none;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 16px
+}
+
+.comparacao .descricao,
+.comparacao .turck,
+.comparacao .concorrentes {
+    padding: 15px 20px;
+    align-items: center !important
+}
+
+.comparacao .linha {
+    border-top: 3px solid #fff;
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: 70% auto;
+    align-items: center;
+    vertical-align: center !important;
+    transition: 0.2s
+}
+
+.comparacao .par:hover,
+.comparacao .impar:hover {
+    background-color: #ffcc00 !important;
+    z-index: 9999 !important
+}
+
+.turck,
+.concorrentes {
+    text-align: center;
+}
+
+.fa-circle-check {
+    color: #30c10f;
+    transition: 0.2s
+}
+
+.comparacao .linha:hover .fa-circle-check {
+    color: #fff;
+    transform: scale(1.7)
+}
+
+.fa-circle-xmark {
+    color: rgba(0, 0, 0, 0.2);
+    transition: 0.2s
+}
 
 
 /***--- PRODUTOS - COMO OS ITENS NA PAGINA DE SENSORES ---***/
@@ -1011,32 +1095,32 @@ a .ebook,
 /***--- BOTAO FORMULARIO ---***/
 
 .formulario {
-  color: #fff;
-  border-radius: 5px;
-  font-family: 'Sora', sans-serif;
-  font-weight: 600;
-  font-size:20px;
-  background: transparent;
-  cursor: pointer;
-  box-shadow:0px 0px 20px rgba(150,150,150,0.5);
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(150, 150, 150, 0.5);
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
 }
 
 .botao-formulario {
-  border: none;
-  background:#ffcc00;
-  margin:0 auto !important;
-  color: #222;
-  padding:20px 30px;
-  overflow: hidden;
+    border: none;
+    background: #ffcc00;
+    margin: 0 auto !important;
+    color: #222;
+    padding: 20px 30px;
+    overflow: hidden;
 }
 
 .botao-formulario:before {
     position: absolute;
-    content:'';
+    content: '';
     display: inline-block;
     top: -180px;
     left: 0;
@@ -1046,23 +1130,38 @@ a .ebook,
     animation: shiny-btn1 3s ease-in-out infinite;
 }
 
-.dot::before{
+.dot::before {
     content: 'Solicite aqui a sua demonstração com um especialista' !important;
 }
 
-.botao-formulario:active{
-  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
-              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-    inset -4px -4px 6px 0 rgba(255,255,255,.2),
-    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+.botao-formulario:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
 }
 
 
 @-webkit-keyframes shiny-btn1 {
-    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
-    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
-    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
-    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+    0% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0;
+    }
+
+    80% {
+        -webkit-transform: scale(0) rotate(45deg);
+        opacity: 0.5;
+    }
+
+    81% {
+        -webkit-transform: scale(4) rotate(45deg);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(50) rotate(45deg);
+        opacity: 0;
+    }
 }
 
 
@@ -1079,27 +1178,27 @@ a .ebook,
 
 /***--- FORMULARIO ---***/
 
-.templateSummary{
-	background-color:#fff !important;
+.templateSummary {
+    background-color: #fff !important;
 }
 
 .webContent__content .button,
 .templateSummary .button,
-.mcnSignUpFormContentContainer .button{
-    background-color:#222;
-    color:#fff;
-    font-size:18px !important;
-    font-weight:700 !important;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5)
+.mcnSignUpFormContentContainer .button {
+    background-color: #222;
+    color: #fff;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
 }
 
-#calltoaction{
-	padding-top:160px !important;
+#calltoaction {
+    padding-top: 160px !important;
 }
 
 #calltoaction p,
-#calltoaction{
-	text-align:center !important
+#calltoaction {
+    text-align: center !important
 }
 
 /***--- PAGINA DE CATALOGOS ---***/
