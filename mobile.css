@@ -35,8 +35,8 @@
     }
 
     .dados{
-        grid-template-columns:auto;
-        grid-template-rows:auto auto auto auto;
+        grid-template-columns:1fr !important;
+        grid-template-rows:auto auto auto auto !important;
         gap:20px !important;
     }
 
@@ -104,8 +104,8 @@
     }
 
     .links-rodape{
-        grid-template-columns:auto;
-        grid-template-rows:auto auto;
+        grid-template-columns:1fr !important;
+        grid-template-rows:auto auto !important;
     }
     h1 {
         padding: 20px 10px 10px !important
