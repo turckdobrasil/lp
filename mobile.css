@@ -5,7 +5,7 @@
     .templateHeader{
         position:absolute !important;
     }
-    .cabecalho-menu{
+    .cabecalho-menu, .link-cabecalho{
     display:block !important;
 }
 
