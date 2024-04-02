@@ -178,6 +178,10 @@ label,
     border-radius: 5px !important;
 }
 
+.mcnCaptionBlock .mcnCaptionBlockInner .mcnTextContent{
+    padding:0px !important;
+}
+
 .mcnCaptionBottomImageContent img:hover,
 .templateSummary img:hover,
 .mcnImage img {
