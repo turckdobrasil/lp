@@ -391,6 +391,7 @@ label,
 /***--- AUTORIZADO BANNER ---***/
 
 .autorizadobanner{
+	align-items:center !important;
 	margin:20px 0px 40px !important;
 	display:grid !important;
 	grid-template-columns:200px auto !important;
