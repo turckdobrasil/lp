@@ -391,18 +391,18 @@ label,
 /***--- AUTORIZADO BANNER ---***/
 
 .autorizadobanner{
-	margin:20px 0px 40px;
-	display:grid;
-	grid-template-columns:auto auto;
-	gap:15px;
-	opacity:0.5;
+	margin:20px 0px 40px !important;
+	display:grid !important;
+	grid-template-columns:200px auto !important;
+	gap:15px !important;
+	opacity:0.5 !important;
 }
 
-.autorizadobanner img{
+.autorizadobanner .logo img{
 	width:200px !important;
 }
 
-.autorizadobanner texto,
+.autorizadobanner .texto,
 {
     font-size:16px !important;
     font-family: Sora !important;
