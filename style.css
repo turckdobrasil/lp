@@ -219,6 +219,10 @@ label,
     letter-spacing: -0.2px !important;
 }
 
+    .mcnCaptionBlockInner,
+    .mcnTextContent{
+        padding:0px !important;
+    }
 
 
 
@@ -1389,10 +1393,6 @@ mc-EMPRESA,
 
 @media only screen and (max-width: 600px) {
 
-    .mcnCaptionBlockInner,
-    .mcnTextContent{
-        padding:0px !important;
-    }
     .templateHeader {
         position: absolute !important;
     }
