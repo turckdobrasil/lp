@@ -522,7 +522,25 @@ a .redesocial,
 }
 
 
+.links-rodape{
+	margin:30px 0px;
+	display:grid;
+    font-size:16px !important;
+    font-family:Sora;
+    grid-template-columns:auto auto auto auto;
+}
 
+.links-rodape .item{
+	margin:10px 0px !important;
+    font-family:Sora;
+    font-size:16px !important;
+}
+.links-rodape a{
+display:block;
+color:#ffcc00 !important;
+    font-size:16px !important;
+font-weight:500 !important;
+}
 
 
 
