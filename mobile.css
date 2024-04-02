@@ -2,6 +2,10 @@
 /***--- MEDIA SCREEN  - RESOLUÇÃO - RESPONSIVO ---***/
 
 @media only screen and (max-width: 600px) {
+
+    .mcnCaptionBlockInner{
+        padding:0px !important;
+    }
     .templateHeader {
         position: absolute !important;
     }
