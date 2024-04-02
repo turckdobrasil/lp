@@ -1586,6 +1586,11 @@ mc-EMPRESA,
     .botao-catalogo {
         font-size: 26px !important
     }
+
+    .mcnSignUpFormContentContainer{
+        width:80% !important;
+        padding:0px 10% !important;
+    }
 }
 
 
