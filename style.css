@@ -259,7 +259,7 @@ label,
 }
 
 .templateHeader {
-    position: fixed !important;
+    position: fixed;
     background-color: #ffcc00 !important;
 }
 
@@ -396,7 +396,7 @@ label,
 .autorizadobanner {
     align-items: center !important;
     margin: 20px 0px 40px !important;
-    display: grid !important;
+    display: grid;
     grid-template-columns: 200px auto !important;
     gap: 30px !important;
     font-family: Sora !important;
@@ -606,6 +606,54 @@ a .redesocial,
 . solucao a {
     margin-top: 30px;
 }
+
+
+
+
+
+
+
+/***--- DADOS ---***/
+
+.dados{
+    color:#333;
+    font-family:Sora;
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    gap:0px 20px
+}
+
+.dados .dado{
+    background-color:#eee !important;
+    padding:20px;
+    border-radius:5px
+}
+
+.dados .numero{
+    font-size:50px;
+    line-height:1;
+    font-weight:900;
+    color:#ffcc00
+}
+
+.dados .fonte{
+    font-size:12px;
+    line-height:1.5;
+    margin-top:15px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
