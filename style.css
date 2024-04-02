@@ -119,9 +119,12 @@ h1 {
     margin: 20px 0px
 }
 
-.botao,
 h5 {
-    margin-bottom: 0px auto 15px important;
+    margin: 0px auto 15px important;
+}
+
+h5,
+.botao{
     background-color: #ffcc00;
     border-radius: 5px;
     display: inline-block !important;
@@ -200,7 +203,7 @@ label,
     padding: 5px 15px !important;
     font-weight: 700 !important;
     letter-spacing: -0.3px !important;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 .aboutUsContainer .mcnTextContent p,
