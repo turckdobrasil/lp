@@ -395,6 +395,7 @@ label,
 	display:grid !important;
 	grid-template-columns:200px auto !important;
 	gap:30px !important;
+	font-family: Sora !important;
 	opacity:0.5 !important;
 }
 
