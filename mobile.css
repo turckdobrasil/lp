@@ -3,21 +3,22 @@
 
 @media only screen and (max-width: 600px) {
 
-    .mcnCaptionBlockInner,
-    .mcnTextContent{
-        padding:0px !important;
-    }
     .templateHeader {
         position: absolute !important;
     }
 
-    .cabecalho-menu,
-    .link-cabecalho {
+    .cabecalho-menu{
         display: block !important;
     }
 
-    .cabecalho-menu .menu {
+    .cabecalho-menu .menu,
+    .link-cabecalho {
         display: none !important;
+    }
+
+    .cabecalho-menu .logo{
+        width:calc(100% - 30px) !important;
+        padding:0px 30px !important;
     }
 
     .slogan {
@@ -42,14 +43,13 @@
     }
 
     .dados {
-        display: block !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: auto !important;
         gap: 20px !important;
     }
 
     .dados .dado {
-        display: block !important
+        display: block !important;
     }
 
     .comparacao {
@@ -122,7 +122,6 @@
     }
 
     .links-rodape {
-        display: block !important;
         grid-template-columns: 1fr !important;
         grid-template-rows: auto !important;
     }
@@ -199,6 +198,11 @@
     .botao-catalogo {
         font-size: 26px !important
     }
+
+    .mcnSignUpFormContentContainer{
+        width:80% !important;
+        padding:0px 10% !important;
+    }
 }
 
 
@@ -213,5 +217,4 @@
     margin: auto !important;
 }
 }
-
 </style>
