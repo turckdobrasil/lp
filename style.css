@@ -203,7 +203,7 @@ label,
     padding: 8px 18px !important;
     font-weight: 700 !important;
     letter-spacing: -0.3px !important;
-    margin: 10px 0px 0px;
+    margin: 10px 0px 0px !important;
 }
 
 .aboutUsContainer .mcnTextContent p,
