@@ -200,7 +200,7 @@ label,
 .botao,
 .button {
     border-radius: 8px !important;
-    padding: 5px 15px !important;
+    padding: 8px 18px !important;
     font-weight: 700 !important;
     letter-spacing: -0.3px !important;
     margin: 10px 0px 0px;
@@ -893,7 +893,6 @@ a .ebook,
     margin-top: 10px;
     background-color: #ffcc00 !important;
     text-shadow: none;
-    padding: 8px 12px !important;
     height: auto;
     text-transform: none !important;
     font-weight: 700 !important;
