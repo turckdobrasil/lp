@@ -1244,7 +1244,7 @@ a .ebook,
 }
 
 #calltoaction {
-    padding-top: 60px;
+    padding-top: 60px !important;
 }
 
 #calltoaction p,
