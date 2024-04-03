@@ -258,7 +258,7 @@ label,
 .cabecalho-menu .logo {
     display: grid;
     align-items: center !important;
-    text-align: right !important
+    text-align: center !important
 }
 
 .templateHeader {
