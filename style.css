@@ -551,6 +551,7 @@ a .redesocial,
 .links-rodape .item {
     margin: 10px 0px !important;
     font-family: Sora;
+    height:auto !important;
     font-size: 16px !important;
 }
 
