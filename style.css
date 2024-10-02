@@ -53,7 +53,7 @@ a,
 a h5,
 .footerContainer,
 .templatefooter p {
-    font-family: Sora !important;
+    font-family: Asap !important;
     color: #333 !important;
 }
 
@@ -193,7 +193,7 @@ label,
 .mcnButton,
 .mcnButtonContentContainer a,
 .mcnButton a {
-    font-family: Sora !important;
+    font-family: Asap !important;
     padding: 15px;
 }
 
@@ -269,14 +269,14 @@ label,
 .tag-header {
     color: #fff !important;
     margin-top: 30px !important;
-    font-family: Sora !important;
+    font-family: Asap !important;
     font-weight: 700 !important;
     font-size: 24px !important;
 }
 
 .titulo-header {
     color: #ffcc00;
-    font-family: Sora;
+    font-family: Asap;
     font-size: 36px;
     line-height: 1.4 !important;
     font-weight: 700;
@@ -290,7 +290,7 @@ label,
 .texto-header p,
 .texto-header {
     text-align: left !important;
-    font-family: Sora;
+    font-family: Asap;
     color: #fff !important;
     font-size: 16px !important;
     line-height: 1.5 !important
@@ -402,7 +402,7 @@ label,
     display: grid;
     grid-template-columns: 200px auto !important;
     gap: 30px !important;
-    font-family: Sora !important;
+    font-family: Asap !important;
     opacity: 0.5 !important;
 }
 
@@ -412,7 +412,7 @@ label,
 
 .autorizadobanner .texto {
     font-size: 16px !important;
-    font-family: Sora !important;
+    font-family: Asap !important;
     color: #fff !important;
 }
 
@@ -477,7 +477,7 @@ label,
 .redesocial a,
 a .redesocial,
 .redesocial h2 {
-    font-family: Sora !important;
+    font-family: Asap !important;
     font-size: 24px !important;
     color: #fff !important;
 }
@@ -529,7 +529,7 @@ a .redesocial,
 .rodape2,
 .rodape2 a,
 .rodape1 a {
-    font-family: Sora !important;
+    font-family: Asap !important;
     font-weight: 400;
     font-size: 16px;
     color: #888 !important;
@@ -544,13 +544,13 @@ a .redesocial,
     padding: 30px 0px !important;
     display: grid;
     font-size: 16px !important;
-    font-family: Sora;
+    font-family: Asap;
     grid-template-columns: auto auto auto auto;
 }
 
 .links-rodape .item {
     margin: 10px 0px !important;
-    font-family: Sora;
+    font-family: Asap;
     height:auto !important;
     font-size: 16px !important;
 }
@@ -589,7 +589,7 @@ a .redesocial,
     font-weight: 700;
     font-size: 30px;
     line-height: 1.4;
-    font-family: Sora;
+    font-family: Asap;
     padding: 40px;
 }
 
@@ -621,7 +621,7 @@ a .redesocial,
 
 .dados{
     color:#333;
-    font-family:Sora;
+    font-family:Asap;
     display:grid;
     grid-template-columns:auto auto auto auto;
     gap:0px 20px
@@ -672,7 +672,7 @@ a .redesocial,
 }
 
 .comparacao {
-    font-family: "Sora"
+    font-family: "Asap"
 }
 
 .comparacao i {
@@ -750,7 +750,7 @@ a .redesocial,
 .produto {
     margin: 0px;
     background-image: linear-gradient(#fdfcfc, #fdfcfc, rgba(255, 255, 255, 0)) !important;
-    font-family: Sora;
+    font-family: Asap;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
     display: grid;
     grid-template-rows: 1fr;
@@ -764,7 +764,7 @@ a .redesocial,
     font-weight: 700;
     font-size: 20px;
     line-height: 1.4;
-    font-family: Sora;
+    font-family: Asap;
     text-align: center;
     padding: 10px 15px 15px;
 }
@@ -772,7 +772,7 @@ a .redesocial,
 .produto-titulo p {
     font-size: 15px !important;
     line-height: 130% !important;
-    font-family: Sora !important;
+    font-family: Asap !important;
 }
 
 .produto-imagem {
@@ -872,7 +872,7 @@ a .redesocial,
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
     width: 80%;
     margin: auto;
-    font-family: Sora;
+    font-family: Asap;
     color: #fff;
     text-shadow: 0px 0px 20px #000;
     font-weight: 700;
@@ -952,7 +952,7 @@ a .ebook,
     background-color: #eee;
     width: 100%;
     padding: 15px;
-    font-family: Sora;
+    font-family: Asap;
     font-size: 16px;
     gap: 10px;
     display: grid;
@@ -998,7 +998,7 @@ a .ebook,
 .ods {
     text-overflow: ellipsis;
     overflow: hidden !important;
-    font-family: Sora;
+    font-family: Asap;
     display: grid;
     max-width: 300px;
     grid-template-columns: 1fr 4fr;
@@ -1042,7 +1042,7 @@ a .ebook,
     text-align: center;
     justify-content: center;
     letter-spacing: -0.5px;
-    font-family: Sora;
+    font-family: Asap;
     color: #333;
     font-weight: 700;
     gap: 30px;
@@ -1082,7 +1082,7 @@ a .ebook,
 #menu-titulo {
     margin-top: 50px;
     color: #333 !important;
-    font-family: Sora;
+    font-family: Asap;
     font-size: 30px;
     line-height: 140%
 }
@@ -1149,7 +1149,7 @@ a .ebook,
 .formulario {
     color: #fff;
     border-radius: 5px;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Asap', sans-serif;
     font-weight: 600;
     font-size: 20px;
     background: transparent;
@@ -1309,7 +1309,7 @@ a. .catalogo .text-catalogo {
     display: block;
     vertical-align: bottom !important;
     box-shadow: inset 0px 0px 300px rgba(0, 0, 0, 0.9);
-    font-family: Sora !important;
+    font-family: Asap !important;
     height: 350px !important;
     color: #fff !important;
     text-align: left;
@@ -1380,7 +1380,7 @@ mc-EMPRESA,
 .invalid,
 .button,
 .invalid-error {
-    font-family: Sora !important;
+    font-family: Asap !important;
     color: #333 !important
 }
 
