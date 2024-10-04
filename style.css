@@ -1393,7 +1393,11 @@ mc-EMPRESA,
 /***--- MEDIA SCREEN  - RESOLUÇÃO - RESPONSIVO ---***/
 
 @media only screen and (max-width: 600px) {
+.produto{
+        min-height:auto;
 
+}
+    
     #calltoaction {
     padding-top: 60px !important;
 }
