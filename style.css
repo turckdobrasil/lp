@@ -758,6 +758,7 @@ a .redesocial,
     border-radius: 15px;
     color: #333;
     letter-spacing: -0.5px;
+    min-height:420px;
 }
 
 .produto-titulo {
