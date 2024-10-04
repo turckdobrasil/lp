@@ -1053,6 +1053,7 @@ a .ebook,
 }
 
 .item-sensores {
+    font-size:20px;
     display: grid;
     align-items: center !important;
     text-align: center;
@@ -1061,7 +1062,7 @@ a .ebook,
     border-radius: 8px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
     padding: 15px;
-    aspect-ratio: 4 / 2 !important;
+    aspect-ratio: 3 / 2 !important;
     transition: 0.1s
 }
 
