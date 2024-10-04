@@ -574,13 +574,13 @@ a .redesocial,
     margin: 20px 0px;
     box-shadow: inset 0px 0px 1000px rgba(0, 0, 0, 1) !important;
     display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 2fr 3fr;
     gap: 0px 30px;
     border-radius: 15px;
     color: #333;
     letter-spacing: -0.5px;
     background-size: cover;
-    padding: 50px 30px;
+    padding: 50px;
     height: auto;
     align-items: center;
 }
