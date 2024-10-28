@@ -57,6 +57,10 @@ a h5,
     color: #333 !important;
 }
 
+.summaryContainer .mcnTextContent, .summaryContainer .mcnTextContent p{
+    font-family: Asap !important;    
+}
+
 .centro {
     text-align: center !important;
     margin: 0 auto !important;
