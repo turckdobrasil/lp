@@ -267,7 +267,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-75));
 #cards model-viewer {
     aspect-ratio: 1 / 1;
     width: 100%;
-    filter: contrast(0.8) saturate(2.7)
+    filter: contrast(0.8) saturate(1.2)
 }
 
 #aplicacoes .button,
