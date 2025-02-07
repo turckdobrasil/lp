@@ -114,7 +114,8 @@
 
     #filtro .item {
     grid-template-rows: auto 1px 1px auto auto auto auto !important;
-
+        gap:8px
+    }
         #footer .content .menu-footer {
         grid-template-columns: 1fr !important;
         gap: 20px !important;
