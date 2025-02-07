@@ -33,8 +33,8 @@
 #cards .content,
 #mc_embed_signup_scroll,
 .content{
-    max-width:calc(100vw - 40px) !important;
-    width:calc(100vw - 40px) !important;
+    max-width:calc(100vw - 60px) !important;
+    width:calc(100vw - 60px) !important;
     padding-top: 20px !important;
     padding-bottom: 20px !important;
     }
