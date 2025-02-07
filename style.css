@@ -58,7 +58,7 @@
 #cards .content{
     grid-template-columns:1fr !important;
     grid-template-rows:auto !important;
-    grid-template-area:'destaque' 'item1' 'item2' 'item3' 'item4' !important;
+    grid-template-areas:'destaque' 'item1' 'item2' 'item3' 'item4' !important;
 }    
 
 
