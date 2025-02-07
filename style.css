@@ -30,6 +30,10 @@
 
 @media screen and (max-width: 768px) {
 
+    html, body {
+  overflow-x: hidden !important;
+}
+    
 #cards .content,
 #mc_embed_signup_scroll,
 .content{
