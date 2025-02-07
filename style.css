@@ -31,27 +31,29 @@
 @media screen and (max-width: 768px) {
 
 #cards .content,
-    #mc_embed_signup_scroll,
-    .content,
-    .title{
-        max-width:calc(100vw - 40px) !important;
-        width:calc(100vw - 40px) !important;
-        padding-top: 20px !important;
-        padding-bottom: 20px !important;
- 
+#mc_embed_signup_scroll,
+.content,
+.title{
+    max-width:calc(100vw - 40px) !important;
+    width:calc(100vw - 40px) !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
     }
 
-.content #menu{display:none !important}
+.content #menu{
+    display:none !important
+}
 
+#cards .content,
 #beneficios .content,
-    #mc_embed_signup_scroll,
+#mc_embed_signup_scroll,
 .video .content{
     grid-template-columns:1fr !important
 }
 
-    #beneficios .item{
-        aspect-ratio:1 / 1 !important;
-        background-size:cover !important
+#beneficios .item{
+    aspect-ratio:1 / 1 !important;
+    background-size:cover !important
     }
 
     
