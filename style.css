@@ -34,7 +34,11 @@
     #mc_embed_signup_scroll,
     .content,
     .title{
-        max-width:calc(100vw - 40px) !important; width:calc(100vw - 40px) !important;padding:auto 20px !important;
+        max-width:calc(100vw - 40px) !important;
+        width:calc(100vw - 40px) !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+ 
     }
 
 .content #menu{display:none !important}
