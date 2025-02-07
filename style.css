@@ -54,6 +54,11 @@
     grid-template-columns:1fr !important
 }
 
+.video .content{
+    padding: 300px 20px 0px !important;
+    }
+
+    
 #mc_embed_signup_scroll{
     grid-template-areas:
         'form-titulo'
