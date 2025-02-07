@@ -44,6 +44,11 @@
 .video .content{
     grid-template-columns:1fr !important
 }
+
+    #beneficios .item{
+        aspect-ratio:1 / 1 !important;
+    }
+
     
 }
 
@@ -241,6 +246,7 @@ a {
 #beneficios .item{
     background-size:contain;
     background-position:top;
+    background-repeat:no-repeat;
     aspect-ratio: 3 / 5.5;
     background-color:var(--cor-fundo-05);
     border-radius:10px;
