@@ -31,13 +31,15 @@
 @media screen and (max-width: 768px) {
 
 #mc_embed_signup_scroll,
-    .content{
+    .content,
+    .title{
         max-width:100vw !important; width:100vw !important
     }
 
 .content #menu{display:none !important}
 
-#mc_embed_signup_scroll,
+#beneficios .content,
+    #mc_embed_signup_scroll,
 .video .content{
     grid-template-columns:1fr !important
 }
