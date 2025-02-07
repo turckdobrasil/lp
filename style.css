@@ -816,7 +816,7 @@ color:var(--cor-33)
     text-align: left;
 }
 
-.video h1{font-size:var(--fonte-5) !important}
+.video h1{font-size:var(--fonte-5)}
 
 .video p{font-size:var(--fonte-3) !important}
 
