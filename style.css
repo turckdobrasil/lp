@@ -44,7 +44,7 @@
     width:calc(100vw - 40px) !important;
     }
 
-.content #menu{
+.content #menu .link{
     display:none !important
 }
 
