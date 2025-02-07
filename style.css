@@ -265,6 +265,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-75));
 #cards .card:nth-of-type(4) {grid-area:item4}
 
 #cards model-viewer {
+    height:200px;
     aspect-ratio: 1 / 1;
     width: 100%;
     filter: contrast(0.8) saturate(1.2)
