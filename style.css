@@ -79,6 +79,20 @@
     #aplicacoes .vazio{
         padding-top:150px !important;
     }
+
+#filtro .content {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); !important}
+
+#filtro .item .categoria,
+#filtro .item .partnumber,
+#filtro .item .id,
+#filtro .item .item-tag{
+        font-size:var(--fonte-normal) !important;
+    }
+
+    #filtro .item {
+    grid-template-rows: auto 1px 1px auto auto auto auto !important;
+    
 }
 
 
