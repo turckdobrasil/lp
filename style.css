@@ -84,7 +84,7 @@
     }
 
 #filtro .content {
-    grid-template-columns: repeat(1, minmax(0, 1fr)); !important}
+    grid-template-columns: 1fr !important}
 
 #filtro .item .categoria,
 #filtro .item .partnumber,
