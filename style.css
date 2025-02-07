@@ -30,7 +30,8 @@
 
 @media screen and (max-width: 768px) {
 
-#mc_embed_signup_scroll,
+#cards .content,
+    #mc_embed_signup_scroll,
     .content,
     .title{
         max-width:100vw !important; width:100vw !important
