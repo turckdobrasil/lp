@@ -65,10 +65,12 @@
     grid-template-areas:'destaque' 'item1' 'item2' 'item3' 'item4' !important;
 }    
 
+#news .content,
 #aplicacoes .lista-aplicacoes{
     grid-template-columns: 1fr !important;
 }
-    
+
+#news .item,    
 #aplicacoes .item-aplicacao {
     grid-template-columns: 1fr !important;
     background-size: 130% !important;
@@ -76,6 +78,7 @@
     background-repeat: no-repeat !important;
 }
 
+    #news .item .col1,
     #aplicacoes .vazio{
         padding-top:150px !important;
     }
