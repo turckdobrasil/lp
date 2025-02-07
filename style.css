@@ -63,7 +63,7 @@
     padding-bottom: 50px !important;
     }
 
-    .video h1 {
+    .video h1, h1 {
     font-size: var(--fonte-4) !important;
 }
     
