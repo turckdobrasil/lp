@@ -59,7 +59,13 @@
     }
     
 .video .content{
-    padding: 300px 20px 50px !important;
+    padding-top: 300px !important;
+    padding-bottom: 50px !important;
+    }
+
+    .content{
+        padding-left:30px !important;
+        padding-right:30px !important;
     }
 
     
