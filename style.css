@@ -403,7 +403,7 @@ a {
 
 .video-youtube{
 margin:50px 0;
-background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-75));
+background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 }
     .video-youtube iframe{
         margin:100px 0;
