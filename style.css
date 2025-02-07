@@ -88,8 +88,9 @@
     gap:8px !important
     }
 
-#mc_embed_signup_scroll .mc-field-group{    display: grid;
-    grid-template-columns: 1fr 4fr;font-size:var(--fonte-2) !important
+#mc_embed_signup_scroll .mc-field-group{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;font-size:var(--fonte-2) !important
 }
 
     #mc_embed_signup_scroll .button{font-size:var(--fonte-2) !important}
