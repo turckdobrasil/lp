@@ -148,6 +148,10 @@
         font-size: var(--fonte-2) !important;
 }
 
+    #header .content #menu{
+        grid-template-columns:1fr !important
+    }
+
     }
 
 
