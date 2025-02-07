@@ -44,7 +44,6 @@
     display:none !important
 }
 
-#cards .content,
 #beneficios .content,
 #mc_embed_signup_scroll,
 .video .content{
@@ -56,8 +55,17 @@
     background-size:cover !important
     }
 
-    
+#cards .content{
+    grid-template-columns:1fr !important;
+    grid-template-rows:auto !important;
+    grid-template-area:auto !important;
+}    
+
+
+
+
 }
+
 
 
 
