@@ -61,9 +61,20 @@
     grid-template-areas:'destaque' 'item1' 'item2' 'item3' 'item4' !important;
 }    
 
+#aplicacoes .lista-aplicacoes{
+    grid-template-columns: 1fr !important;
+}
+    
+#aplicacoes .item-aplicacao {
+    grid-template-columns: 1fr !important;
+    background-size: 130% !important;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+}
 
-
-
+    #aplicacoes .vazio{
+        padding-top:150px !important;
+    }
 }
 
 
