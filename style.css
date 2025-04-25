@@ -661,7 +661,7 @@ grid-area:destaque}
     border: 1px solid var(--cor-05);
     border-radius: 5px;
     display: grid;
-    grid-template-rows:auto 1px 1px 30px 20px 20px auto !important;
+    grid-template-rows: auto 1px 1px auto 20px 20px auto !important;
     font-family:"Inter Tight";
 
 }
