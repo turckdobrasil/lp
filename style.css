@@ -742,7 +742,7 @@ color:var(--cor-33)
     /* Faz o input ocupar toda a largura do grid */
     margin-bottom: 16px;
     /* Espaçamento abaixo do input */
-    padding: 15px;
+    padding: 15px !important;
     height:20px;
     border-radius: 5px;
     font-size: 20px;
