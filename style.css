@@ -112,7 +112,7 @@
         height:300px !important
     }
     
-.video{height:auto !important;background-image:cover !important}
+.video{height:auto !important;background-size:100% !important}
     
 #beneficios .item{
     aspect-ratio:1 / 1.5 !important;
