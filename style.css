@@ -811,7 +811,7 @@ color:var(--cor-33)
     width: 100%; /* Largura total da janela */
     height: 100%; /* Altura total da janela */
     object-fit: cover; /* Garante que o vídeo preencha a área sem distorção */
-    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    z-index: 0; /* Coloca o vídeo atrás do conteúdo */
 }
 
 .video .content {
