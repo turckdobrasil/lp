@@ -800,6 +800,7 @@ color:var(--cor-33)
     border-bottom:1px solid var(--cor-10);
     margin-top:-1px;
     background-size:100% !important;
+    background-repeat:no-repeat;
 
 }
 
