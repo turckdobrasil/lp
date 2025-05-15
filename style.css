@@ -798,7 +798,8 @@ color:var(--cor-33)
     height: 700px; /* Altura total do vídeo */
     overflow: hidden;
     border-bottom:1px solid var(--cor-10);
-    margin-top:-1px
+    margin-top:-1px;
+    background-size:100% !important;
 
 }
 
