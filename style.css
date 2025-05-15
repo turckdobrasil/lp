@@ -833,6 +833,8 @@ color:var(--cor-33)
 
 .video .content * {
     text-align: left;
+        z-index: 1 !important;
+    position: relative !important;
 }
 
 .video h1{font-size:var(--fonte-5)}
