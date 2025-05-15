@@ -828,6 +828,7 @@ color:var(--cor-33)
     display:grid;
     margin:auto;
     grid-template-columns:repeat(2, 1fr);
+    position:relative !important;
 }
 
 .video .content * {
