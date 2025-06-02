@@ -786,7 +786,7 @@ color:var(--cor-33)
     border-radius:0px 10px 10px 0px;
     align-items:end;
     -webkit-backdrop-filter: blur(50px) brightness(1.5);
-    backdrop-filter: blur(50px) brightness(1.5);
+    backdrop-filter: blur(50px) brightness(4);
     background: linear-gradient(to bottom, #ffffff00, var(--cor-fundo-25));
 
 }
