@@ -414,10 +414,11 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 
 #cards .content {
     display: grid;
-    width:calc(100% - 100px);
+    width:calc(100% - 300px);
+    max-width:100%;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:'item1 destaque destaque item2' 'item3 destaque destaque item4'
+    grid-template-areas:'destaque destaque item1 item2' 'destaque destaque item3 item4'
 
 }
 #cards .vazio {
