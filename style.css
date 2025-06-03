@@ -413,7 +413,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 /* -- @CARDS -- */
 
 #cards .content {
-    height:100vh;
+    height:90vh;
     display: grid;
     width:calc(100% - 300px);
     max-width:100%;
