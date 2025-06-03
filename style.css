@@ -413,14 +413,13 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 /* -- @CARDS -- */
 
 #cards .content {
-    height:90vh;
+    height:auto;
     display: grid;
-    width:85vw;
-    max-width:100%;
     gap: 20px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-areas:'destaque destaque destaque item1 item2' 'destaque destaque destaque item3 item4'
-
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        'destaque destaque destaque destaque'
+        'item1 item2 item3 item4';
 }
 #cards .vazio {
     background-color: transparent !important;
@@ -436,6 +435,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 #cards .destaque{
         background-color: var(--cor-fundo-05);
     border-radius:10px;
+    height:90vh;
 }
 
 #cards .card:nth-of-type(1) {grid-area:item1}
