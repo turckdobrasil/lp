@@ -415,7 +415,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 #cards .content {
     height:90vh;
     display: grid;
-    width:calc(100% - 300px);
+    width:85vw;
     max-width:100%;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
