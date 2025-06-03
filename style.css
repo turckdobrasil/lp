@@ -418,8 +418,8 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
     width:85vw;
     max-width:100%;
     gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:'destaque destaque item1 item2' 'destaque destaque item3 item4'
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:'destaque destaque destaque item1 item2' 'destaque destaque destaque item3 item4'
 
 }
 #cards .vazio {
