@@ -108,10 +108,7 @@
     object-fit: auto !important;
         }
 
-    #cards model-viewer{
-        height:300px !important
-    }
-    
+   
 .video{height:auto !important;background-size:100% !important}
     
 #beneficios .item{
@@ -451,6 +448,11 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
     width: 100%;
     aspect-ratio: 1 / 1.5;
     filter: contrast(0.9) saturate(1.4) hue-rotate(-15deg) brightness(0.9)
+}
+
+:host{
+    height:auto;
+    width:auto;
 }
 
 #aplicacoes .button,
