@@ -446,7 +446,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 #cards model-viewer {
     border-radius:10px;
     width: 100%;
-    aspect-ratio: 1 / 1.5;
+    aspect-ratio: 1 / 1;
     filter: contrast(0.9) saturate(1.4) hue-rotate(-15deg) brightness(0.9)
 }
 
