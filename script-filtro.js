@@ -3,15 +3,21 @@ document.addEventListener('DOMContentLoaded', function () {
   const comentarioDiv = document.querySelector('.comentario');
   const items = document.querySelectorAll('#filtro .item');
 
-  items.forEach(item => {
-    item.style.display = 'none';
-  });
+  // Mostra os 5 primeiros itens por padrão (sem texto na busca)
+  const mostrarItensIniciais = () => {
+    items.forEach((item, index) => {
+      item.style.display = index < 5 ? 'grid' : 'none';
+    });
+    comentarioDiv.style.display = 'none';
+  };
+
+  mostrarItensIniciais(); // Executa ao carregar a página
 
   if (input) {
     input.addEventListener('keyup', function () {
-      const termos = input.value.toLowerCase().split(' ').filter(Boolean); // Divide e remove termos vazios
+      const termos = input.value.toLowerCase().split(' ').filter(Boolean);
 
-      if (termos.length >= 1 && !(termos.length === 1 && termos[0] === 'sensor')) {
+      if (termos.length > 0 && !(termos.length === 1 && termos[0] === 'sensor')) {
         let itensVisiveis = 0;
 
         items.forEach(item => {
@@ -24,17 +30,15 @@ document.addEventListener('DOMContentLoaded', function () {
             });
           });
 
-          // Verifica se todos os termos estão presentes no texto do item
           const corresponde = termos.every(termo => textoItem.includes(termo));
-
           item.style.display = corresponde ? 'grid' : 'none';
           if (corresponde) itensVisiveis++;
         });
 
         comentarioDiv.style.display = itensVisiveis > 0 ? 'none' : '';
       } else {
-        items.forEach(item => item.style.display = 'none');
-        comentarioDiv.style.display = '';
+        // Se o campo estiver vazio, mostra os 5 primeiros itens
+        mostrarItensIniciais();
       }
     });
   }
