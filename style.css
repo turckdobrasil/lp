@@ -166,6 +166,7 @@
 
 #cards .card{
         padding: 25px !important;
+    grid-template-rows: 200px auto;
 }
 
 
