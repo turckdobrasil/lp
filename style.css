@@ -77,6 +77,8 @@
 
 @media screen and (max-width: 768px) {
 
+
+    
     html, body {
   overflow-x: hidden !important;
 }
@@ -90,6 +92,9 @@
     padding-bottom: 20px !important;
     }
 
+    #cards .destaque{display:none !important}
+
+    
 .title{
     max-width:calc(100vw - 40px) !important;
     width:calc(100vw - 40px) !important;
@@ -213,7 +218,6 @@
 
 #cards .card{
         padding: 25px !important;
-    grid-template-rows: 200px auto;
 }
 
 
