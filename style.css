@@ -443,10 +443,11 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 #cards .card:nth-of-type(3) {grid-area:item3}
 #cards .card:nth-of-type(4) {grid-area:item4}
 
-#cards model-viewer {
+.card model-viewer {
     border-radius:10px;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: auto !important;
+    aspect-ratio: 1 / 1.5;
     filter: contrast(0.9) saturate(1.4) hue-rotate(-15deg) brightness(0.9)
 }
 
