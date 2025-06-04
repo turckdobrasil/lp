@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const comentarioDiv = document.querySelector('.comentario');
   const items = document.querySelectorAll('#filtro .item');
 
-  // Mostra os 5 primeiros itens por padrão (sem texto na busca)
+  // Mostra os 4 primeiros itens por padrão (sem texto na busca)
   const mostrarItensIniciais = () => {
     items.forEach((item, index) => {
-      item.style.display = index < 5 ? 'grid' : 'none';
+      item.style.display = index < 4 ? 'grid' : 'none';
     });
     comentarioDiv.style.display = 'none';
   };
