@@ -451,11 +451,6 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
     filter: contrast(0.9) saturate(1.4) hue-rotate(-15deg) brightness(0.9)
 }
 
-:host{
-    height:auto;
-    width:auto;
-}
-
 #aplicacoes .button,
 #news .button,
 #principal .button{
