@@ -27,6 +27,18 @@
 
 }
 
+::-moz-selection {
+  background: #ffcc00;
+  color: #222;
+}
+
+::selection {
+  background: #ffcc00;
+  color: #222;
+}
+
+
+
 ::-webkit-scrollbar {
   width: 15px;
   height: 15px;
