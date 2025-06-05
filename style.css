@@ -385,9 +385,6 @@ a {
     grid-template-columns: repeat(6, auto);
 }
 
-#header .content #menu .link:hover {
-    font-weight: 700
-}
 
 
 * {
