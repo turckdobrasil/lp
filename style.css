@@ -470,6 +470,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 }
     .video-youtube iframe{
         margin:100px 0;
+        border-radius:10px !important;
         aspect-ratio:16 / 9;
     }
 
