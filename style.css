@@ -523,13 +523,20 @@ model-viewer{
     aspect-ratio: 1 / 1.5;
 }
 
-.ctalink{
-    margin:40px auto;
-    padding:20px 10px;
-    background-color:var(--cor-marca);
-    font-weight:700;
-    font-size:var(--fonte-2);
-    display:inline-block;
+.wrapper-ctalink {
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;  
+}
+
+.ctalink {
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--cor-marca);
+    font-weight: 700;
+    font-size: var(--fonte-3);
+    display: block;
 }
 
 #aplicacoes .button,
