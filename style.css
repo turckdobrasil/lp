@@ -532,6 +532,7 @@ model-viewer{
 .ctalink {
     margin: 0 auto;
     padding: 20px;
+    text-align:center;
     border-radius: 8px;
     background-color: var(--cor-marca);
     font-weight: 700;
