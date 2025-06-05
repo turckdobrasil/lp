@@ -523,7 +523,7 @@ model-viewer{
     aspect-ratio: 1 / 1.5;
 }
 
-.button2{
+.ctalink{
     margin:40px auto;
     padding:20px 10px;
     background-color:var(--cor-marca);
