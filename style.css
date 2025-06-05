@@ -75,6 +75,45 @@
 
 
 
+/* BOTÃO DO WHATSAPP */
+
+.popup-button {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  padding: 30px;
+  background-color: #25D366;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.popup-button button {
+  background: white;
+  color: #25D366;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.popup-button button i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.popup-button button:hover {
+  background-color: #f2f2f2;
+}
+
+
+
 @media screen and (max-width: 768px) {
 
 
