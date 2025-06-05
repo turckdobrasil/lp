@@ -538,15 +538,15 @@ model-viewer{
     display: block;
 }
 
-body > .wrapper-ctalink:nth-of-type(1) a::before{
+.cta1 a::before{
   content:"Marque a sua demonstração com a nossa equipe";
 }
 
-body > .wrapper-ctalink:nth-of-type(2) a::before{
+.cta2 a::before{
   content:"Fale aqui com a nossa equipe sobre aplicações para o seu segmento";
 }
 
-body > .wrapper-ctalink:nth-of-type(3) a::before{
+.cta3 a::before{
   content:"Clique aqui e fale sobre o modelo ideal para o seu processo";
 }
 
