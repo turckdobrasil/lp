@@ -511,7 +511,7 @@ background: radial-gradient(circle, var(--cor-fundo-05), var(--cor-fundo-25));
 #cards .card:nth-of-type(4) {grid-area:item4}
 
 model-viewer{
-        filter: contrast(0.95) saturate(1.8) hue-rotate(-10deg) brightness(0.9);
+        filter: contrast(0.95) saturate(1.2) hue-rotate(-0deg) brightness(1);
 }
 
 .card model-viewer {
