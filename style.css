@@ -467,8 +467,6 @@ a {
 
 .tres {
     gap:30px;
-    background-size:cover;
-    background-position:center;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     align-self:center;
@@ -477,7 +475,16 @@ a {
     justify-align:center;
 }
 
-.tres > *{aspect-ratio: 1 / 1}
+.tres > *{
+    background-size:cover;
+    background-position:center;
+    aspect-ratio: 16 / 9;
+    align-self:end;
+    align-items:end;
+    display:grid;
+}
+
+.tres h2{margin:10px 0 !important}
 
 /* -- @VIDEO-YOUTUBE -- */
 
