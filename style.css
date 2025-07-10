@@ -462,6 +462,23 @@ a {
    color:var(--cor-texto) !important;
 }
 
+
+/*-- SEGMENTOS --*/
+
+.tres {
+    gap:30px;
+    background-size:cover;
+    background-position:center;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    align-self:center;
+    align-items:center;
+    text-align:center;
+    justify-align:center;
+}
+
+.tres > *{aspect-ratio: 1 / 1}
+
 /* -- @VIDEO-YOUTUBE -- */
 
 .video-youtube{
