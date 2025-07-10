@@ -465,26 +465,37 @@ a {
 
 /*-- SEGMENTOS --*/
 
-.tres {
-    gap:30px;
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    align-self:center;
-    align-items:center;
-    text-align:center;
-    justify-align:center;
-}
+    #grade-destaques {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+        grid-template-areas: 'item1 item1 item1 item1 item2 item2' 'item3 item3 item4 item4 item5 item5' 'item6 item6 item6 item7 item7 item7' 'item8 item8 item8 item8 item9 item9'
+    }
 
-.tres > *{
-    background-size:cover;
-    background-position:center;
-    aspect-ratio: 16 / 9;
-    align-self:end;
-    align-items:end;
-    display:grid;
-}
+    .destaque {
+        border-radius: 10px;
+        background-color: var(--cor-fundo-05);
+        min-height: 310px;
+        box-sizing: border-box;
+        background-position: left center;
+        background-size: 150%;
+        min-height: 300px
+    }
 
-.tres h2{margin:10px 0 !important}
+    .destaque .texto {
+        color: #fff !important;
+        border-radius: 10px;
+        background: linear-gradient(to right, #000000, #00000090, #00000000);
+        height: 100%;
+        box-sizing: border-box;
+        align-self: center;
+        padding: 40px 40% 40px 40px;
+    }
+
+    .destaque .texto * {
+        color: #fff !important;
+    }
+
 
 /* -- @VIDEO-YOUTUBE -- */
 
