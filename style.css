@@ -439,7 +439,7 @@ a {
     background-size:contain;
     background-position:top;
     background-repeat:no-repeat;
-    aspect-ratio: 3 / 5.5;
+    aspect-ratio: 3 / 7;
     background-color:var(--cor-fundo-05);
     border-radius:10px;
     display:grid;
@@ -447,7 +447,7 @@ a {
 }
 
 #beneficios .item:hover{
-    background-position-y:-30px
+    background-position-x:-50px
 }
 
 #beneficios .item .texto{
