@@ -507,6 +507,7 @@ a {
 .destaque .button{
     background-color: var(--cor-marca);
     padding: 5px 10px;
+    color:var(--cor-texto) !important;
     margin-top: 15px;
     display: inline-block;
     border-radius: 5px;
