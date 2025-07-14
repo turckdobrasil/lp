@@ -276,6 +276,8 @@ html {width:100%;
     line-height: 1.5;
 }
 
+.fonte-branca *{color:#fff !important}
+
 body,
 html,
 p {
