@@ -383,8 +383,9 @@ a {
 #header{
     z-index: 9999 !important;
     position: relative !important;
-    margin: 30px auto;
-    padding: 0 10px;
+    margin: 30px auto !important;
+    padding: 0 10px !important;
+    width:1080px !important;
 }
 
 #header .content #menu {
