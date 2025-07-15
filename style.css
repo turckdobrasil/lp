@@ -509,6 +509,14 @@ a {
 
 /*-- SEGMENTOS --*/
 
+.segmentos #grade-destaque .destaque .texto{
+    backdrop-filter:blur(20px);
+}
+
+.segmentos #grade-destaque .destaque .texto:hover{
+    backdrop-filter:blur(0px);
+}
+
 #grade-destaques {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
