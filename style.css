@@ -494,7 +494,7 @@ a {
     }
 
     .destaque:hover {
-    background-position: right center;
+    background-position: right bottom;
     }
 
     .destaque .texto {
