@@ -140,10 +140,6 @@
     padding-bottom: 50px !important;
     }
 
-    .fonte-branca *{
-        color:var(--cor-texto) !important
-    }
-    
     .video h1, h1 {
     font-size: var(--fonte-4) !important;
 }
