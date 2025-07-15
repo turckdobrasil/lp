@@ -278,6 +278,9 @@ html {width:100%;
 
 .fonte-branca *{color:#fff !important}
 
+.fonte-branca .tipo{
+    background-color:var(--cor-marca) !important;
+    color:var(--cor-texto) !important}
 body,
 html,
 p {
