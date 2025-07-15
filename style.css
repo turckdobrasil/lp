@@ -304,7 +304,7 @@ html {width:100%;
     line-height: 1.5;
 }
 
-.fonte-branca *{color:#fff !important}
+.fonte-branca *{color:var(--cor-05) !important}
 
 .fonte-branca .tipo{
     background-color:var(--cor-marca) !important;
