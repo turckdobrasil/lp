@@ -486,11 +486,10 @@ a {
     .destaque {
     border-radius: 10px;
     background-color: var(--cor-fundo-05);
-    min-height: 310px;
     box-sizing: border-box;
     background-position: left center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 250px;
     background-repeat: no-repeat;
     }
 
@@ -505,7 +504,7 @@ a {
         height: 100%;
         box-sizing: border-box;
         align-self: center;
-        padding: 40px 40% 40px 40px;
+        padding: 40px 30% 40px 40px;
     }
 
     .destaque .texto * {
