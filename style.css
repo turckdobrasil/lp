@@ -457,8 +457,8 @@ a {
     padding:30px;
     border-radius:0px 0px 10px 10px;
     align-items:end;
-    -webkit-backdrop-filter: blur(50px) brightness(0.1);
-    backdrop-filter: blur(50px) brightness(6.66);
+    -webkit-backdrop-filter: blur(50px) brightness(0.1) !important;
+    backdrop-filter: blur(50px) brightness(0.1) !important;
     background: linear-gradient(to bottom, #ffffff00, var(--cor-fundo-25));
 }
 
