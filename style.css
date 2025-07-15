@@ -402,8 +402,8 @@ a {
     z-index: 9999 !important;
     position: relative !important;
     margin: 30px auto !important;
-    padding: 0 10px !important;
-    width:1080px !important;
+    padding: 0 10px;
+    width:1080px;
 }
 
 #header .content{
