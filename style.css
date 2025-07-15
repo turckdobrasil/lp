@@ -383,6 +383,8 @@ a {
 #header{
     z-index: 9999 !important;
     position: relative !important;
+    margin: 30px auto;
+    padding: 0 10px;
 }
 
 #header .content #menu {
@@ -976,7 +978,7 @@ color:var(--cor-33)
     height: 800px; /* Altura total do vídeo */
     overflow: hidden;
     border-bottom:1px solid var(--cor-10);
-    margin-top:-90px;
+    margin-top:-150px;
     background-size:100% !important;
     background-repeat:no-repeat;
 
