@@ -206,7 +206,9 @@
         }
 
    
-.video{height:auto !important;background-size:100% !important}
+.video{
+    height:auto !important;
+    background-size:cover !important}
     
 #beneficios .item{
     aspect-ratio:1 / 1.5 !important;
