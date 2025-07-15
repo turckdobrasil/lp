@@ -683,7 +683,7 @@ color:#fff
 }
 
 #aplicacoes .item-aplicacao .texto{
-cor:var(--cor-05) !important;
+color:var(--cor-05) !important;
 }
 
 #aplicacoes .vazio{
