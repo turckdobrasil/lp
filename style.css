@@ -394,7 +394,7 @@ a {
     display: grid;
     gap: 30px;
     top: 0;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(5, auto);
 }
 
 
