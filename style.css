@@ -682,7 +682,8 @@ color:#fff
    
 }
 
-#aplicacoes .item-aplicacao .texto{
+#aplicacoes .item-aplicacao .texto,
+#aplicacoes .item-aplicacao .texto *{
 color:var(--cor-05) !important;
 }
 
