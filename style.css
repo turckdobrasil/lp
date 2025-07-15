@@ -1010,7 +1010,7 @@ color:var(--cor-33)
     height: 800px; /* Altura total do vídeo */
     overflow: hidden;
     border-bottom:1px solid var(--cor-10);
-    background-size:100% !important;
+    background-size:auto;
     background-repeat:no-repeat;
 
 }
