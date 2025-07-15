@@ -136,7 +136,7 @@
     }
     
 .video .content{
-    padding-top: 300px !important;
+    padding-top: 400px !important;
     padding-bottom: 50px !important;
     }
 
@@ -147,9 +147,10 @@
 }
 
     #header-video {
-        margin-left: -75vw !important;
-        width: 180vw !important;
-        height: 100% !important;
+
+        width: 170% !important;
+        margin-left: -65vw !important;
+        height: 420px !important;
     }
     
     .content{
@@ -502,14 +503,14 @@ a {
 /*-- SEGMENTOS --*/
 
 #grade-destaques {
-    display: grid !important;
-    grid-template-columns: repeat(6, 1fr) !important;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 30px !important;
     grid-template-areas: 
         'item1 item1 item1 item2 item2 item2'
         'item3 item3 item4 item4 item5 item5'
         'item6 item6 item6 item7 item7 item7'
-        'item8 item8 item8 item9 item9 item9' !important;
+        'item8 item8 item8 item9 item9 item9';
     background-size:cover !important;
     background-repeat:no-repeat !important;
     background-position:center !important;
