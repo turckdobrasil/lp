@@ -984,10 +984,13 @@ color:var(--cor-33)
     height: 800px; /* Altura total do vídeo */
     overflow: hidden;
     border-bottom:1px solid var(--cor-10);
-    margin-top:-150px;
     background-size:100% !important;
     background-repeat:no-repeat;
 
+}
+
+#main .video{
+    margin-top:-150px;
 }
 
 #header-video {
