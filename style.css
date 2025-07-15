@@ -388,10 +388,15 @@ a {
     width:1080px !important;
 }
 
+#header .content{
+    padding: 0 50px !important;
+    box-sizing: border-box !important;
+}
+
 #header .content #menu {
-    align-self: center;
+    align-self: left;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
     display: grid;
     gap: 30px;
     top: 0;
@@ -1005,7 +1010,7 @@ color:var(--cor-33)
     height: 100%;
     justify-content: left;
     align-items: center;
-    padding: 0px 20px 0px;
+    padding: 90px 20px 0px;
     display:grid;
     margin:auto;
     grid-template-columns:repeat(2, 1fr);
