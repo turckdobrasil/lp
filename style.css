@@ -677,9 +677,13 @@ color:#fff
 #aplicacoes .item-aplicacao .texto{
     padding:30px;
     border-radius:0px 10px 10px 0px;
-    -webkit-backdrop-filter: blur(50px) brightness(2);
-    backdrop-filter: blur(50px) brightness(2);
+    -webkit-backdrop-filter: blur(50px) brightness(0.5);
+    backdrop-filter: blur(50px) brightness(0.5);
    
+}
+
+#aplicacoes .item-aplicacao .texto{
+cor:var(--cor-05) !important;
 }
 
 #aplicacoes .vazio{
