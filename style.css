@@ -494,6 +494,10 @@ a {
     background-repeat: no-repeat;
     }
 
+    .destaque:hover {
+    background-position: right center;
+    }
+
     .destaque .texto {
         color: #fff !important;
         border-radius: 10px;
