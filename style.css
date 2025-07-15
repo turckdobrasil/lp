@@ -111,6 +111,10 @@
 
     #cards .destaque{display:none !important}
 
+    #header {
+    padding: 15px 10px 20px !important;
+    width: 80% !important;
+    }
     
 .title{
     max-width:calc(100vw - 40px) !important;
@@ -136,15 +140,29 @@
     padding-bottom: 50px !important;
     }
 
+    .fonte-branca{color:var(--cor-texto) !important}
+    
     .video h1, h1 {
     font-size: var(--fonte-4) !important;
 }
+
+    #header-video {
+        margin-left: -75vw !important;
+        width: 180vw !important;
+        height: 100% !important;
+    }
     
     .content{
         padding-left:30px !important;
         padding-right:30px !important;
     }
 
+    #grade-destaques {
+    display: grid !important
+;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    grid-template-areas:'item1' 'item2' 'item3' 'item4' 'item5' 'item6' 'item7' 'item8' 'item9'}
     
 #mc_embed_signup_scroll{
     grid-template-areas:
