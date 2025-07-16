@@ -509,12 +509,8 @@ a {
 
 /*-- SEGMENTOS --*/
 
-.segmentos #grade-destaque .destaque .texto{
-    backdrop-filter:blur(20px);
-}
-
-.segmentos #grade-destaque .destaque .texto:hover{
-    backdrop-filter:blur(0px);
+.segmentos .destaque .texto:hover{
+    backdrop-filter:blur(20px) !important;
 }
 
 #grade-destaques {
